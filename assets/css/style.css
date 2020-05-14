@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 16px;
 }
 ol, ul {
 	list-style: none;
@@ -353,7 +354,7 @@ small {
 
 .container {
   /* width: 100%; */
-  padding: 16px;
+  padding: 0;
 }
 
 .surface {
@@ -446,6 +447,7 @@ header#home {
     background-repeat: no-repeat;
     background-position-x: 60vw;
     background-position-y: 5rem;
+    margin-right: -16px;
 }
 
 section {
@@ -684,7 +686,7 @@ main {
 .casestudy-img {
     display: block;
     max-height: initial;
-    /* padding: 48px 0; */
+    padding: 48px 0;
 }
 
  }
