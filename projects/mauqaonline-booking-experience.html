@@ -2,21 +2,18 @@
 <html>
 <head>
 
-  <title>Projects — Masna Bin Umeed</title>
+  <title>Redesigning a booking experience — Masna Bin Umeed</title>
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="assets/images/og-image.png">
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.min.css">
-
-
   <link rel="stylesheet" href="../assets/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="../assets/js/app.js"></script>
-
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
 
 
@@ -24,9 +21,10 @@
 
 <body>
 
+
+
   <nav>
     <div class="row">
-
       <div class="col-md-8 offset-md-2">
         <a href="">
           <img class="logo" alt="logo" src="../assets/images/masna_logo_white.png" style="max-height: 32px;">
@@ -51,13 +49,15 @@
     <div class="container">
 
 
-      <div class="row align-row mt40 mb40">
+      <div class="row mt40 mb40">
         <div class="col-md-5 ">
-          <h4 class="white">Web-app design</h4>
-          <h1>Translating existing mobile app infrastructure into seemless web design</h1>
+          <h4 class="white">Mobile app design</h4>
+          <h1>
+            Redesigning a booking experience to improve feedback and choice
+          </h1>
         </div>
         <div class="col-md-5 offset-md-2 casestudy-img">
-          <img src="../assets/images/hero-casestudy.png" alt="hero" width="100%" class="float-right">
+          <img src="../assets/images/projects/OF_hero.png" alt="hero"  class="float-right" style="max-height:500px">
         </div>
 
       </div>
@@ -78,7 +78,7 @@
               Summary
             </h4>
             <p>
-              How I took the existing back-end and front-end concepts of Mauqa Online’s customer app to launch web-app with minimum development and fast execution
+              I redesigned the booking flow to start with fixed inputs and move to more adjustable inputs. I also incorporated visual feedback on each selection to guide the user further.
             </p>
           </div>
 
@@ -88,10 +88,21 @@
             </h4>
             <p>
               <ul>
-                <li>Product Strategy</li>
-                <li>Design Systems</li>
-                <li>Usability testing</li>
-                <li>HTML & CSS</li>
+                <li>
+                  User research
+                </li>
+
+                <li>
+                  Interface design
+                </li>
+
+                <li>
+                  Prototyping
+                </li>
+
+                <li>
+                  Product sprints
+                </li>
               </ul>
             </p>
           </div>
@@ -101,7 +112,7 @@
               Credits
             </h4>
             <p>
-              How I took the existing back-end and front-end concepts of Mauqa Online’s customer app to launch web-app with minimum development and fast execution
+              Special thanks for Sarah Asif for conducting the user interviews and testing on the project
             </p>
           </div>
 
@@ -131,15 +142,83 @@
 
 
       <div class="col-md-6 mb24">
-        <p>Mauqa Online is an on-demand service where you can book a domestic worker for part time work. It an early stage startup aiming to provide employment opportunities to traditionally offline blue collar workers by connecting them to customers through a digital platform.</p>
-        <p>The service has a customer Android and iOS app to book workers. There is a worker side app that allows low-literacy worker to perform jobs, get salary details and more.</p>
-        <p>A web-based job management tool is used to run operations which includes managing worker’s transport, job tracking and scheduling. It is also used for recruitment, maintain records of the workers and customers.</p>
+        <p>
+          Mauqa Online is an on-demand domestic help service that allows users to book workers for tasks such as cooking, cleaning, etc. Users can choose from male/female workers and book them for a variety of tasks at various times during the day. These bookings can be made through the iOS or Android app.
+        </p>
+        <p>
+          The booking form on the customer app was underperforming with only 4% of new users creating a booking. This was posing to be a big roadblock to company's growth. Suspecting it to be a design problem, we wanted to inquire the precise paint points which were causing frustration for our users.
+        </p>
+        <p>
+          The Product team reached out to existing customers to figure out pain points in the booking process. We conducted interviews and surveys with several users and gathered information about their booking experience.
+        </p>
+        <p>
+          This led to a bunch of problems being identified:
+        </p>
+
+        <ul class="bullets">
+          <li>
+            The availability of the desired worker was revealed to the user at the end, upon submitting the form. This meant that users had to fill out the whole form, make all their choices about the kind of help and worker they needed, only to find out that there was no available slot to book.
+          </li>
+          <li>
+            There was no way to indicate which of the user's selection had resulted with 'no available slot'. It  may have been the timing, the service or a mismatch of the two, but there was no way for the user to know.
+          </li>
+          <li>
+            Users often selected multiple services for which there was no matching worker. This problem occurred when the multiple services selected were not offered by an individual worker.
+          </li>
+          <li>
+            Lastly, the horizontal scroll that showed more slots was hard to discover.
+          </li>
+        </ul>
+
       </div>
 
 
     </section>
 
-    <img width="100%" alt="dashboard" src="../assets/images/dashboard.png">
+    <figure>
+      <div class="screenscroll">
+
+        <img src="../assets/images/projects/OF_old_1.png">
+        <img src="../assets/images/projects/OF_old_2.png">
+        <img src="../assets/images/projects/OF_old_3.png">
+        <img src="../assets/images/projects/OF_old_4.png">
+        <img src="../assets/images/projects/OF_old_5.png">
+
+      </div>
+
+      <figcaption>
+        Old booking journey in the app
+      </figcaption>
+    </figure>
+
+
+    <section class="row">
+
+      <div class="col-md-3 mb24">
+        <div class="bar mb24"></div>
+        <h4 class="mb24">
+          Hypotheses for solution
+        </h4>
+      </div>
+
+
+      <div class="col-md-6 mb24">
+
+        <p>
+          With these problems identified, I built a hypothesis to rearrange the 'inputs' that a user had to provide. I proposed that input categories be presented in a rigid to flexible flow. The user will be asked to input 'rigid' requirements first, followed by more 'flexible' ones. We identified that location and booking date are rigid booking requirements; the user will need the worker at a certain date and location. However, duration and timing are requirements that a user will presumably be more flexible about. It is quite likely that the user changes their preference for time to get the next suitable slot.
+        </p>
+        <p>
+          To bring further clarity to the booking process, I suggested that step-wise availability feedback be provided to the user at every choice input, rather than at the end of the form. If a selection by the user results in no available slot, they were to be informed immediately.
+        </p>
+
+        <figure class="mt40">
+          <img width="100%" alt="order flow" src="../assets/images/projects/orderflow.jpg">
+          <figcaption>A rough flow outlined on a whiteboard during ideation</figcaption>
+        </figure>
+      </div>
+
+    </section>
+
 
 
 
@@ -148,45 +227,97 @@
       <div class="col-md-3 mb24">
         <div class="bar mb24"></div>
         <h4 class="mb24">
-          research
+          Design and Prototyping
         </h4>
       </div>
 
-
       <div class="col-md-6 mb24">
         <p>
-          As a member of the Product team, my responsibilities are to understand and solve ‘problems’ for the three main teams in the company: Demand, Supply, and Operations.
+          The booking form was comprehensively redesigned for better feedback and flexibility. I analysed each feature of the form and it resulted in a change in outlook as well as the format of the form.
         </p>
         <p>
-          This is achieved by firstly understanding their issues through need finding and data analysis. Once we have our hypotheses, we run experiments of potential solutions through MVPs. Once a solution is validated, we iterate and productize these processes by running bi-weekly agile sprints. We then assist each team in creating systems around these solutions and periodically assess their impact.
+          I divided the form into further stages, with one input per screen. Keeping in view our target persona of middle aged women, it was decided within the team to sacrifice speed and go for a simpler form. One input per screen meant that it took longer to make a booking but this format was more convenient in providing instant feedback to the user of unavailable requirements, and for the user to make adjustments to their requirements.
+        </p>
+        <p>
+          A desire for a less intimidating interface was raised internally. For this, I introduced a warmer background colour and more conversational headings asking for an input.
+        </p>
+        <p>
+          After discussing feasibility with engineering team, it was decided to call the booking API on each service selection. This gave user instant feedback over mismatching services. For instance, users were now able to know that there is no worker available who could do Laundry and also Babysit.
+        </p>
+        <p>
+          The horizontal scroll was replaced by a vertical one, with the review and payment section added to a new screen instead of a slide up model.
+        </p>
+        <p>
+          The mockups were designed in Sketch and made into a clickable prototype on Invision. It was then tested out with the customers to whom we had reached out during surveys. With a few design iterations, the new flow was implemented into the app.
+        </p>
+      </div>
+
+    </section>
+
+
+    <figure>
+      <div class="screenscroll">
+
+        <img src="../assets/images/projects/OF_new_1.png">
+        <img src="../assets/images/projects/OF_new_2.png">
+        <img src="../assets/images/projects/OF_new_3.png">
+        <img src="../assets/images/projects/OF_new_4.png">
+        <img src="../assets/images/projects/OF_new_5.png">
+
+      </div>
+
+      <figcaption>
+        New deigns for the booking journey
+      </figcaption>
+    </figure>
+
+
+    <section class="row">
+
+
+      <div class="col-md-4 p12 hidden">
+        <div class="surface">
+          <h6>Front</h6>
+          <div class="text">
+            The user-flow for making a booking in the customer app was underperforming, leading to a terrible conversion rate.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 p12 hidden">
+        <div class="surface">
+          <h6>Front</h6>
+          <div class="text">
+            The user-flow for making a booking in the customer app was underperforming, leading to a terrible conversion rate.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb24">
+        <div class="bar mb24"></div>
+        <h4 class="mb24">
+          Design and Prototyping
+        </h4>
+      </div>
+
+      <div class="col-md-6 mb24 ">
+        <p>
+          The results were a bit spotty at the start due to development difficulties. However, after several fixes and app updates, the new booking flow finally started showing improvements.
+        </p>
+        <p>
+          Tracking events for Google Analytics were set up on each input of the form, creating a conversion funnel. This allowed us to quantitatively analyse performance of the new form at each step and compare it with the previous flow.
         </p>
 
-      </div>
-
-
-      <div class="col-sm-4 p12">
-        <div class="surface">
-          <h6>Front</h6>
-          <div class="text">
-            The user-flow for making a booking in the customer app was underperforming, leading to a terrible conversion rate.
-          </div>
+        <div class="highlight">
+          After many small iterations over a couple of months, the conversion rate increased by up to 6 times.
         </div>
-      </div>
+        <p>
+          Performance of the funnel was still somewhat varied across sources and platforms. iOS performed better than Android and organic users converted better than those who came through advertisement. Formerly, the conversion rate averaged at 4%. After the new flow, the conversion rate averaged at around 18% while going up to 25% for some channels.
+        </p>
+        <p>
+          Ultimately it solved a major obstacle for Mauqa Online, allowing the company to scale their customer base by 5 times.
+        </p>
 
-      <div class="col-sm-4 p12">
-        <div class="surface">
-          <h6>Front</h6>
-          <div class="text">
-            The user-flow for making a booking in the customer app was underperforming, leading to a terrible conversion rate.
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 offset-sm-3 mb24 mt24">
-        <blockquote>
-          The user-flow for making a booking in the customer app was underperforming, leading to a terrible conversion rate.
-        </blockquote>
-        <p>Once the new booking flow was done, the option to book a previous worker was added on top of that. The previous worker is selected at the start of the flow and only availability of the selected worker is checked. The solution was designed to have minimal development effort and integrated easily with the new booking flow.</p>
       </div>
 
     </section>
