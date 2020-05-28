@@ -54,11 +54,11 @@ html, body, :root {
   font-family: 'Inter', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.7rem;
+  line-height: 1.9rem;
   font-weight: 500;
   text-decoration: inherit;
   text-transform: inherit;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   background: #181818;
   margin: 0;
 }
@@ -430,7 +430,7 @@ h6 {
 }
 
 p {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     font-size: 1.25rem;
 }
 
@@ -438,6 +438,13 @@ a {
     font-size: 14px;
     font-weight: 700;
     color: white;
+}
+
+p a, ul a {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .text {
