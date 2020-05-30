@@ -367,8 +367,14 @@ small {
   box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50);
   border-radius: 8px;
   padding: 32px;
+  display: block;
 }
 
+#projects .surface {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
 
 
 .casestudy {
@@ -399,6 +405,13 @@ h2, .highlight {
     font-size: 28px;
     color: #D59E74;
     line-height: 36px;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #D59E74;
     margin-bottom: 12px;
     font-weight: 900;
 }
@@ -459,7 +472,7 @@ li {
 header {
     min-height: 500px;
     position: relative;
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
 
 header#home {
