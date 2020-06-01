@@ -564,6 +564,7 @@ img {
 
 figcaption, .caption {
     font-size: 0.75rem;
+    line-height: 1.5rem;
     font-style: italic;
     text-align: center;
 }
@@ -788,13 +789,13 @@ main {
 }
 
 .casestudy-img {
-    display: block;
+    /* display: block; */
     max-height: initial;
     padding: 48px 0;
 }
 
 .casestudy-img img {
-  max-width:90%;
+  max-width: 100%;
 }
 
 .hidden-sm {
