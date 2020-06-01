@@ -371,9 +371,23 @@ small {
 }
 
 #projects .surface {
-    height: 500px;
+    height: 450px;
     overflow: hidden;
     position: relative;
+}
+
+
+
+
+.cover {
+    transition-duration: 500ms;
+    transition-property: all;
+    max-width: 125%;
+}
+
+
+#projects .surface:hover .cover {
+    transform:scale(1.05)
 }
 
 
@@ -407,6 +421,8 @@ h2, .highlight {
     line-height: 36px;
     margin-bottom: 12px;
     font-weight: 900;
+        transition: 200ms color;
+
 }
 
 h3 {
@@ -414,6 +430,8 @@ h3 {
     color: #D59E74;
     margin-bottom: 12px;
     font-weight: 900;
+        transition: 200ms color;
+
 }
 
 
@@ -451,6 +469,13 @@ a {
     font-size: 14px;
     font-weight: 700;
     color: white;
+    transition: 200ms color;
+}
+
+a:hover, a:hover h2, a:hover h3 {
+    color: #FF7F31;
+    color: #FFF04C;
+    
 }
 
 p a, ul a {
@@ -462,6 +487,7 @@ p a, ul a {
 
 .text {
     font-size: 1rem;
+    line-height: 1.65rem;
 }
 
 li {
@@ -476,12 +502,13 @@ header {
 }
 
 header#home {
-    background-image: url(../images/hero-photo.png);
+    /* background-image: url(../images/hero-photo.png); */
     background-size: 300px;
     background-repeat: no-repeat;
     background-position-x: 60vw;
     background-position-y: 5rem;
     margin-right: -16px;
+    min-height: 450px;
 }
 
 section {
@@ -764,6 +791,10 @@ main {
     display: block;
     max-height: initial;
     padding: 48px 0;
+}
+
+.casestudy-img img {
+  max-width:90%;
 }
 
 .hidden-sm {
