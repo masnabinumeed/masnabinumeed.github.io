@@ -534,8 +534,8 @@ img {
 }
 
 .underline {
-    text-decoration: underline;
-    text-underline-position: under;
+    /* text-decoration: underline; */
+    /* text-underline-position: under; */
 }
 
 .card {
