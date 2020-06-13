@@ -475,7 +475,7 @@ a {
 a:hover, a:hover h2, a:hover h3 {
     color: #FF7F31;
     color: #FFF04C;
-    
+
 }
 
 p a, ul a {
@@ -533,9 +533,12 @@ img {
     /* align-self: baseline; */
 }
 
-.underline {
+.underline h3 {
     /* text-decoration: underline; */
     /* text-underline-position: under; */
+		border: 1px solid #D59E74;
+		padding: 12px 48px;
+		display: inline-block;
 }
 
 .card {
