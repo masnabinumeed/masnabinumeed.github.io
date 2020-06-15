@@ -19,11 +19,11 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96671273-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-96671273-2');
+  gtag('config', 'UA-96671273-2');
   </script>
 
 </head>
@@ -87,7 +87,7 @@
               Summary
             </h4>
             <p>
-              I translated native mobile app functionalities onto feature phones capabilities to remove dependence on a call center for operations.
+              As the Product Designer, I translated native mobile app functionalities onto feature phones capabilities to remove dependence on a call center for operations. I was able to cut down reliance on 9 operators down to just 1.
             </p>
           </div>
 
@@ -127,7 +127,7 @@
               Credits
             </h4>
             <p>
-              Special thanks to <a href="https://www.linkedin.com/in/talha-qazi-9a441011b/" target="_blank">Talha Qazi</a> for supporting me with testing and implementation
+              Special thanks to <a href="https://www.linkedin.com/in/talha-qazi-9a441011b/" target="_blank">Talha Qazi</a> for supporting me with testing and implementation.
             </p>
           </div>
 
@@ -159,14 +159,31 @@
       <div class="col-md-6 mb24">
 
         <p>
-          Mauqa Online is an on-demand domestic help service. Whenever a customer books the service, the company connects the customer to a blue-collar worker. The company relies on a call centre to execute all booking operations. The call centre operator would manually call each worker to convey or collect information such as schedules, reminder, arranging rides, punching booking start and end times, and much more.
+          Mauqa Online is an on-demand domestic help service. Whenever a customer books a service, they are connected to a blue-collar worker. For getting a worker to a customer, we relied on a call centre to execute all booking operations. The call centre operator would manually call each worker to convey or collect information such as schedules, reminder, arranging rides, punching booking start and end times.
         </p>
+
+        <div class="row mt40 mb40">
+          <div class="figure col-xs-6 col-md-3 ">
+            <div class=" m0">
+              25%
+            </div>
+            <div class="text ">of workers have a smartphone</div>
+          </div>
+
+          <div class="figure col-xs-6 col-md-3 offset-md-2">
+            <div class=" m0">
+              60%
+            </div>
+            <div class="text ">of workers are illiterate</div>
+          </div>
+
+        </div>
         <p>
-          The worker mobile app was not viable in relaying information because 25% of the workers do not have a smart phone. And 60% of the worker base is illiterate so textual channels such as messages cannot be relied on to convey and collect information.
+          We have a worker mobile app but its adoption is small because of the above two figures. This restricted us to using voice through calls. The reliance on manually calling up workers was really costly and limited us to a certain number of bookings per day. So automating communication became a business necessity to scale, rather than to just increase productivity.
         </p>
-        <p>
-          This restricted us to using voice through calls. The reliance on manually calling up workers was really costly and bound the company to a limited number of bookings per day, as there were on average 15 calls to a worker on each booking. So automating communication became a business necessity to scale, rather than to just increase productivity.
-        </p>
+        <div class="highlight">
+          On average, an operator was calling up a worker 15 times per booking
+        </div>
 
 
 
@@ -191,29 +208,35 @@
       <div class="col-md-6 mb24">
 
         <p>
-          I started with documenting the communication process that was followed for each booking. I then categorized it into either Outbound Communication (initiated by operators) or Inbound Communication (initiated by worker).
+          I started with documenting the communication process that was followed for each booking. Using historic data, I then categorized it into either <em>Outbound</em> Communication (initiated by operators) or <em>Inbound</em> Communication (initiated by worker).
         </p>
         <p>
           <ul class="bullets">
             <li>
-              Outbound: Reminders about upcoming bookings, ride details, customer address, booking assignment, cash deposit reminders
+              <b>Outbound:</b> Reminders about upcoming bookings, ride details, customer address, booking assignment, cash deposit reminders
             </li>
             <li>
-              Inbound: Recording start and end time of a booking
+              <b>Inbound:</b> Recording start and end time of a booking
             </li>
           </ul>
         </p>
         <p>
-          For some outbound communication, a response was required from the worker as well, such as confirming availability.
+          For some outbound communication, a response was required from the worker as well, such as accepting a new booking.
         </p>
+        <br>
         <p>
-          Next I created a basic literacy survey for 100 workers. It was found that 20% could read Urdu on Roman format, 40% could read Urdu and 97% could read numbers. This identified that textual channels such as SMS could be used to convey one-way information, as long as the format was numerical. This also led to the conclusion that voice is still the most effective channel and it will need to be automated.
+          Next I created a basic literacy survey for a 100 workers. It was found that 20% could read Urdu in Roman format, 40% could read Urdu in native script and 97% could read numbers.
         </p>
 
-        <figure class="mt40">
-          <img width="100%" alt="call center" src="../assets/images/projects/call-center.jpg">
-          <figcaption>Multiple visits were made to the call center where Talha Qazi (in photo) and I 'shadowed' and surveyed how operators performed each task</figcaption>
+        <figure class="mt24 mb40">
+          <img width="100%" alt="worker survey" src="../assets/images/projects/worker_survey.png">
+          <figcaption>The survey highlighted that there was no one way to define literacy and reading numbers was more common than we had expected</figcaption>
         </figure>
+
+        <p>
+          This identified that textual channels such as SMS could be used to convey one-way information containing just numbers. This also led to the conclusion that if we were to automate any communication, <em>the medium would have to be voice.</em>
+        </p>
+
       </div>
 
     </section>
@@ -232,10 +255,41 @@
 
       <div class="col-md-6 mb24">
         <p>
-          For voice, a 3rd-party voice campaign software by Telenor was used as a MVP. For testing if workers were able to understand and respond to 'Robocalls', I pre-recorded instructions for booking reminders. These were initiated manually by our operators and the worker's response was recorded using either 1 or 2 keypress on their phone's dial-pad. The adoption was slow at start, but with a few iterations, it rose to 90%. This validated our hypothesis that automating voice calls could be an effective channel.
+          For voice, a 3rd-party voice campaign software by <a target="_blank" href="https://www.telenor.com.pk/">Telenor</a> was used as a MVP. To see if workers could understand and respond to <em>'Robocalls'</em>, I pre-recorded some booking reminders. These were initiated manually by our operators and the worker's response was recorded using either 1 or 2 keypress on their phone's dial-pad.
         </p>
         <p>
-          Next, to test out SMS, I started sharing worker's ride details via SMS, rather than over a call. This included the registration number of their vehicles. Even the illiterate worker was able to match the number plates using the numbers in the text. This validated the hypothesis that SMS could be used to convey familiar information as long as it follows a template.
+          <b>The adoption for Robocalls was slow at start, but with a few iterations, the response rate rose to 90%.</b>
+        </p>
+        <p>
+          This validated our hypothesis that automating voice calls could be an effective channel.
+        </p>
+
+
+        <figure class="mt40 mb40">
+          <img width="100%" alt="call center" src="../assets/images/projects/call-center.jpg">
+          <figcaption>Multiple visits were made to the call center where Talha Qazi (in photo) and I 'shadowed' and surveyed how operators performed each task</figcaption>
+        </figure>
+
+        <br>
+
+        <p>
+          Next, to test out SMS, I started sharing worker's ride details via SMS, rather than over a call. This included the registration number of their vehicles. All of the workers was able to match the number plates using the numbers in the text. This validated the hypothesis that SMS could be used to convey familiar information as long as it follows a template.
+        </p>
+
+        <figure class="mt40 mb40 col-md-8 offset-md-2">
+
+          <img src="../assets/images/projects/ride_text.jpg" alt="text message" width="100%" style="border: 20px solid #010101;">
+
+          <figcaption>
+            An automatic text message containing ride's registration number and the customer's unit number.
+          </figcaption>
+        </figure>
+
+        <br>
+
+        <p>
+
+          With these 2 channels validated, I used a 3rd-party software, <a target="_blank" href="https://www.infobip.com/">Infobip</a>. I used their Text-to-Speech functionality to convert roman urdu text to pre-recorded audio. This saved us the hassle of recording all audio in advance and fine tune easily. We integrated their APIs to our backend, so that a worker's response could be recorded directly to our database.
         </p>
 
         <figure class="mt40 mb40">
@@ -247,37 +301,39 @@
           </figcaption>
         </figure>
 
-        <p>
 
-          With these 2 channels validated, I used another 3rd-party software, Infobip, with our system as their software offered more flexibility. I used their Text-to-Speech functionality to convert roman urdu text to pre-recorded audio. This saved us the hassle of recording all audio in advance and fine tune it easily. We integrated their APIs to our backend, so that worker responses could be recorded directly to our database.
-        </p>
 
         <p>
-          <ul class="bullets">
-            <li>
-              For all 2-way outbound communication, I used automated voice calls to inform workers and gather their responses.
-            </li>
-            <li>
-              For all 1-way outbound communication, I used SMS to convey static information.
-            </li>
-            <li>
-              For inbound communication, I setup an Interactive Voice Response (IVR) system on a phone number.
-            </li>
-          </ul>
+          In Infobip, I created complex decision trees called 'Flows' to cater to major use-cases for each communication. If a worker selected a wrong option or dropped the call, etc. there was always an 'if-else' condition added as a fallback.
         </p>
 
-        <p>
-          I created complex decision trees called 'Flows' to cater to any failures or common use-cases for each communication. If a worker selected a wrong option or dropped the call, etc. there was always an 'if-else' condition added to each step to handle it.
-        </p>
+        <div class="mt40 mb40 center">
+          <audio controls class="inline">
+            <source src="../assets/infobip-recording.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+            <div class="caption mt12">
+              Translation: 'This a recorded call from Mauqa Online. You have been assigned a job for which you will have to come to the stop at 8:45. If you want to do this job, press 1 and if you don't want to, press 2.'
+              Sample of a recording created using text-to-speech for a fairly accurate pronounciation in Urdu</div>
 
-        <div class="mt40 center">
-        <audio controls class="inline">
-          <source src="../assets/infobip-recording.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-          </audio>
-          <div class="caption mt12">Sample of a recording created using text-to-speech for a fairly accurate pronounciation in Urdu</div>
+          </div>
 
-        </div>
+          <br>
+
+            <p class="bold">
+              Summary of implementations
+            </p>
+            <ul class="bullets">
+              <li>
+                For all 2-way outbound communication, I used automated voice calls to inform workers and gather their responses.
+              </li>
+              <li>
+                For all 1-way outbound communication, I used SMS to convey static information.
+              </li>
+              <li>
+                For inbound communication, I setup an Interactive Voice Response (IVR) system on a phone number.
+              </li>
+            </ul>
 
         </div>
 
@@ -301,19 +357,25 @@
         <div class="col-md-6 mb24 ">
 
           <p>
-            Although the plan was to roll out features one by one, but the COVID-19 pandemic forced us to launch features sooner. We reduced our agent count from 9 down to just 1. Luckily for us, the automation was able to support the agent in handling most of the workload.
+            Although the plan was to roll out features one by one, but the COVID-19 pandemic forced us to launch features sooner. We reduced our agent count <b>from 9 down to just 1.</b> Luckily for us, the automation was able to support the agent in handling most of the workload.
           </p>
           <div class="highlight">
-            Automating these recurring calls saved the company about $2000 each month
+            Automating these recurring calls saved us thousands of dollars of a call center charges each month
           </div>
+          <br>
           <p>
-            For me, automating these multiple process was a complex undertaking as it was not just a challenge on the technological front. It required an understanding of the worker's comprehension, constraints and behaviour. One example for this would be that even though information was conveyed clearly over call, most of the workers were not familiar with the concept of pressing the keypad to record a response. The use of this feature was then added to their training later.
+            For me, automating these multiple process was a complex undertaking as it was not just a challenge on the technological front. It required an understanding of the worker's comprehension, constraints and behaviour.
           </p>
           <p>
-            The key takeaway from this project is that to automate or productize any process, it is crucial that the process is refined and validated. If the process does not work 20% of the time, it will compound when automated and increase your headache by 200%. It has always helped me to follow the process of Lean or Human-Centered Design:
+            <em>
+              One example for this would be that even though information was conveyed clearly over call, most of the workers were not familiar with the concept of pressing the keypad to record a response. This was then added to their training later.
+            </em>
           </p>
+          <br>
+          <br>
+
           <p>
-            Hypothesize > Test > Validate > Implement > Iterate (Repeat)
+            The key takeaway from this project is that to automate any process, it is crucial that it is refined and validated. If the process does not work 20% of the time, it will compound when automated and increase your headache by 200%.
           </p>
 
         </div>
@@ -326,8 +388,7 @@
 
 
 
-      <section class="center">
-        <div class="bar mb24 inline"></div>
+      <section class="center underline">
         <a href="/projects"><h3>View more projects  &nbsp  →</h3></a>
       </section>
 
