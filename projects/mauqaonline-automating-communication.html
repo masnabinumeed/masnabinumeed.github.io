@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>Automating communication — Masna Bin Umeed</title>
+  <title>Automating communication for illiterate workers — Masna Bin Umeed</title>
 
 
   <meta charset="utf-8">
@@ -237,6 +237,12 @@
           This identified that textual channels such as SMS could be used to convey one-way information containing just numbers. This also led to the conclusion that if we were to automate any communication, <em>the medium would have to be voice.</em>
         </p>
 
+
+        <figure class="mt40 mb40">
+          <img width="100%" alt="call center" src="../assets/images/projects/call-center.jpg">
+          <figcaption>Multiple visits were made to the call center where Talha Qazi (in photo) and I 'shadowed' and surveyed how operators performed each task</figcaption>
+        </figure>
+
       </div>
 
     </section>
@@ -254,178 +260,194 @@
       </div>
 
       <div class="col-md-6 mb24">
+        <p class="bold">Validating Voice</p>
+
         <p>
           For voice, a 3rd-party voice campaign software by <a target="_blank" href="https://www.telenor.com.pk/">Telenor</a> was used as a MVP. To see if workers could understand and respond to <em>'Robocalls'</em>, I pre-recorded some booking reminders. These were initiated manually by our operators and the worker's response was recorded using either 1 or 2 keypress on their phone's dial-pad.
         </p>
-        <p>
-          <b>The adoption for Robocalls was slow at start, but with a few iterations, the response rate rose to 90%.</b>
-        </p>
-        <p>
-          This validated our hypothesis that automating voice calls could be an effective channel.
-        </p>
 
-
-        <figure class="mt40 mb40">
-          <img width="100%" alt="call center" src="../assets/images/projects/call-center.jpg">
-          <figcaption>Multiple visits were made to the call center where Talha Qazi (in photo) and I 'shadowed' and surveyed how operators performed each task</figcaption>
-        </figure>
-
-        <br>
-
-        <p>
-          Next, to test out SMS, I started sharing worker's ride details via SMS, rather than over a call. This included the registration number of their vehicles. All of the workers was able to match the number plates using the numbers in the text. This validated the hypothesis that SMS could be used to convey familiar information as long as it follows a template.
-        </p>
-
-        <figure class="mt40 mb40 col-md-8 offset-md-2">
-
-          <img src="../assets/images/projects/ride_text.jpg" alt="text message" width="100%" style="border: 20px solid #010101;">
-
-          <figcaption>
-            An automatic text message containing ride's registration number and the customer's unit number.
-          </figcaption>
-        </figure>
-
-        <br>
-
-        <p>
-
-          With these 2 channels validated, I used a 3rd-party software, <a target="_blank" href="https://www.infobip.com/">Infobip</a>. I used their Text-to-Speech functionality to convert roman urdu text to pre-recorded audio. This saved us the hassle of recording all audio in advance and fine tune easily. We integrated their APIs to our backend, so that a worker's response could be recorded directly to our database.
-        </p>
-
-        <figure class="mt40 mb40">
-
-          <img src="../assets/images/projects/infobip.png" alt="flow" width="100%">
-
-          <figcaption>
-            A small portion of a 'flow' made on infobip
-          </figcaption>
-        </figure>
-
-
-
-        <p>
-          In Infobip, I created complex decision trees called 'Flows' to cater to major use-cases for each communication. If a worker selected a wrong option or dropped the call, etc. there was always an 'if-else' condition added as a fallback.
-        </p>
 
         <div class="mt40 mb40 center">
           <audio controls class="inline">
-            <source src="../assets/infobip-recording.mp3" type="audio/mp3">
+            <source src="../assets/RBT30.mp3" type="audio/mp3">
               Your browser does not support the audio element.
             </audio>
             <div class="caption mt12">
-              Translation: 'This a recorded call from Mauqa Online. You have been assigned a job for which you will have to come to the stop at 8:45. If you want to do this job, press 1 and if you don't want to, press 2.'
-              Sample of a recording created using text-to-speech for a fairly accurate pronounciation in Urdu</div>
+              Translation: 'This a recorded call from Mauqa Online. Your ride will arrive at the stop in exactly 30 minutes. If you are available for this job, press 1. If you are unavailable for this job, press 2. A penalty will be added  if you do not perform this job.'
+            </div>
 
           </div>
 
-          <br>
-
-            <p class="bold">
-              Summary of implementations
-            </p>
-            <ul class="bullets">
-              <li>
-                For all 2-way outbound communication, I used automated voice calls to inform workers and gather their responses.
-              </li>
-              <li>
-                For all 1-way outbound communication, I used SMS to convey static information.
-              </li>
-              <li>
-                For inbound communication, I setup an Interactive Voice Response (IVR) system on a phone number.
-              </li>
-            </ul>
-
-        </div>
-
-      </section>
-
-
-
-
-      <section class="row">
-
-
-
-
-        <div class="col-md-3 mb24">
-          <div class="bar mb24"></div>
-          <h4 class="mb24">
-            Results and Learning
-          </h4>
-        </div>
-
-        <div class="col-md-6 mb24 ">
 
           <p>
-            Although the plan was to roll out features one by one, but the COVID-19 pandemic forced us to launch features sooner. We reduced our operator count <b>from 9 down to just 1.</b> Luckily for us, the automation was able to support the operator in handling most of the workload.
+            The adoption for Robocalls was slow at start, but with a few iterations, the response rate rose to <b>90%.</b>
+
+            This validated our hypothesis that automating voice calls could be an effective channel.
           </p>
-          <div class="highlight">
-            Automating these recurring calls saved us thousands of dollars of a call center charges each month
+
+
+
+          <br>          <br>
+
+
+          <p>
+            <p class="bold">Validating SMS</p>
+            Next, to test out SMS, I started sharing worker's ride details via SMS, rather than over a call. This included the registration number of their vehicles. All of the workers was able to match the number plates using the numbers in the text. This validated the hypothesis that SMS could be used to convey familiar information as long as it follows a template.
+          </p>
+
+          <figure class="mt40 mb40 col-md-8 offset-md-2">
+
+            <img src="../assets/images/projects/ride_text.jpg" alt="text message" width="100%" style="border: 20px solid #010101;">
+
+            <figcaption>
+              An automatic text message containing ride's registration number and the customer's unit number.
+            </figcaption>
+          </figure>
+
+          <br>
+
+
+          <p class="bold">Automating Inbound and Outbound</p>
+
+          <p>
+
+            With these 2 channels validated, I used a 3rd-party software, <a target="_blank" href="https://www.infobip.com/">Infobip</a>. I used their Text-to-Speech functionality to convert roman urdu text to pre-recorded audio. This saved us the hassle of recording all audio in advance and fine tune easily. We integrated their APIs to our backend, so that a worker's response could be recorded directly to our database.
+          </p>
+
+          <figure class="mt40 mb40">
+
+            <img src="../assets/images/projects/infobip.png" alt="flow" width="100%">
+
+            <figcaption>
+              A small portion of a 'flow' made on infobip
+            </figcaption>
+          </figure>
+
+
+
+          <p>
+            In Infobip, I created complex decision trees called 'Flows' to cater to major use-cases for each communication. If a worker selected a wrong option or dropped the call, etc. there was always an 'if-else' condition added as a fallback.
+          </p>
+
+          <div class="mt40 mb40 center">
+            <audio controls class="inline">
+              <source src="../assets/infobip-recording.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+              </audio>
+              <div class="caption mt12">
+                Translation: 'This a recorded call from Mauqa Online. You have been assigned a job for which you will have to come to the stop at 8:45. If you want to do this job, press 1 and if you don't want to, press 2.'
+                Sample of a recording created using text-to-speech for a fairly accurate pronounciation in Urdu</div>
+
+              </div>
+
+              <br>
+
+              <p class="bold">
+                Summary of automations
+              </p>
+              <ul class="bullets">
+                <li>
+                  For all 2-way outbound communication, I used automated Robocalls to inform workers and gather their responses.
+                </li>
+                <li>
+                  For all 1-way outbound communication, I used SMS to convey simpler information.
+                </li>
+                <li>
+                  For inbound communication, I setup an Interactive Voice Response (IVR) system on a phone number. A worker sends a misscall at this number and receive an automated call back. This way the calling costs were not put on the worker.
+                </li>
+              </ul>
+
+            </div>
+
+          </section>
+
+
+
+
+          <section class="row">
+
+
+
+
+            <div class="col-md-3 mb24">
+              <div class="bar mb24"></div>
+              <h4 class="mb24">
+                Results and Learning
+              </h4>
+            </div>
+
+            <div class="col-md-6 mb24 ">
+
+              <p>
+                Although the plan was to roll out features one by one, but the COVID-19 pandemic forced us to launch features sooner. We reduced our operator count <b>from 9 down to just 1.</b> Luckily for us, the automation was able to support the operator in handling most of the workload.
+              </p>
+              <div class="highlight">
+                Automating these recurring calls saved us thousands of dollars of a call center charges each month
+              </div>
+              <br>
+              <p>
+                For me, automating these multiple process was a complex undertaking as it was not just a challenge on the technological front. It required an understanding of the worker's comprehension, constraints and behaviour.
+              </p>
+              <p>
+                <em>
+                  One example for this would be that even though information was conveyed clearly over call, most of the workers were not familiar with the concept of pressing the keypad to record a response. This was then added to their training later.
+                </em>
+              </p>
+              <br>
+              <br>
+
+              <p class="center bold col-md-10 offset-md-1">
+                The key takeaway from this project is that to automate any process, it is crucial that it is refined and validated. If the process does not work 20% of the time, it will compound when automated and increase your headache by 200%.
+              </p>
+
+            </div>
+
+          </section>
+
+
+
+
+
+
+
+          <section class="center underline">
+            <a href="/projects"><h3>View more projects  &nbsp  →</h3></a>
+          </section>
+
+
+        </main>
+
+
+        <footer>
+
+          <div class="row align-row" style="align-items:flex-end;">
+
+            <div class="col-md-5 offset-md-2 mb40">
+
+              <img alt="masna picture" src="../assets/images/masna-icon.png" class="inline" width="48px">
+
+              <h1 class="mb24 ml12 inline">Get in touch</h1>
+              <p>If you would like to hire me for a project or discuss your ideas, reach out at</p>
+              <a href="mailto:masnabinumeed@gmail.com" >masnabinumeed@gmail.com</a>
+
+            </div>
+
+
+            <div class="col-md-3 text-right mt40">
+              <a href="/">Home</a>
+              <span class="ml8 mr8">/</span>
+              <a href="/projects">Projects</a>
+              <span class="ml8 mr8">/</span>
+              <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank">Linkedin</a>
+            </div>
+
           </div>
-          <br>
-          <p>
-            For me, automating these multiple process was a complex undertaking as it was not just a challenge on the technological front. It required an understanding of the worker's comprehension, constraints and behaviour.
-          </p>
-          <p>
-            <em>
-              One example for this would be that even though information was conveyed clearly over call, most of the workers were not familiar with the concept of pressing the keypad to record a response. This was then added to their training later.
-            </em>
-          </p>
-          <br>
-          <br>
 
-          <p class="center bold col-md-10 offset-md-1">
-            The key takeaway from this project is that to automate any process, it is crucial that it is refined and validated. If the process does not work 20% of the time, it will compound when automated and increase your headache by 200%.
-          </p>
 
-        </div>
-
-      </section>
+        </footer>
 
 
 
 
-
-
-
-      <section class="center underline">
-        <a href="/projects"><h3>View more projects  &nbsp  →</h3></a>
-      </section>
-
-
-    </main>
-
-
-    <footer>
-
-      <div class="row align-row" style="align-items:flex-end;">
-
-        <div class="col-md-5 offset-md-2 mb40">
-
-          <img alt="masna picture" src="../assets/images/masna-icon.png" class="inline" width="48px">
-
-          <h1 class="mb24 ml12 inline">Get in touch</h1>
-          <p>If you would like to hire me for a project or discuss your ideas, reach out at</p>
-          <a href="mailto:masnabinumeed@gmail.com" >masnabinumeed@gmail.com</a>
-
-        </div>
-
-
-        <div class="col-md-3 text-right mt40">
-          <a href="/">Home</a>
-          <span class="ml8 mr8">/</span>
-          <a href="/projects">Projects</a>
-          <span class="ml8 mr8">/</span>
-          <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank">Linkedin</a>
-        </div>
-
-      </div>
-
-
-    </footer>
-
-
-
-
-  </body>
-  </html>
+      </body>
+      </html>
