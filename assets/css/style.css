@@ -476,7 +476,7 @@ a {
     transition: 200ms color;
 }
 
-a:hover, a:hover h2, a:hover h3 {
+a:hover, a:hover h2,  a:hover h3, #featured a:hover h2 {
     color: #FF7F31;
     color: #FFF04C;
 
