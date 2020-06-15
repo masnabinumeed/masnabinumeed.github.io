@@ -19,11 +19,11 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96671273-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-96671273-2');
+  gtag('config', 'UA-96671273-2');
   </script>
 
 </head>
@@ -87,7 +87,7 @@
               Summary
             </h4>
             <p>
-              I made the booking form dynamic with instant feedback to the user at each step of the journey.
+              I made the booking form dynamic with instant feedback to the user at each step of the journey, resulting in a 6x increase in bookings.
             </p>
           </div>
 
@@ -154,31 +154,42 @@
 
       <div class="col-md-6 mb24">
         <p>
-          Mauqa Online is an on-demand domestic help service that allows users to book workers for tasks such as cooking, cleaning, etc. Users can choose from male/female workers and book them for a variety of tasks at various times during the day. These bookings can be made through the iOS or Android app.
+          <a target="_blank" href="https://mauqa.online">Mauqa Online</a> is an on-demand domestic help service that allows users to book workers for tasks such as cooking, cleaning, etc. These bookings can be made through the iOS or Android app.
         </p>
         <p>
-          The booking form on the customer app was underperforming with only 4% of new users creating a booking. This was posing to be a big roadblock to company's growth. Suspecting it to be a design problem, we wanted to inquire the precise paint points which were causing frustration for our users.
+          The booking form on the customer app was underperforming. This was posing to be a big roadblock to company's growth.
         </p>
+
+        <div class="row mt40 mb40">
+          <div class="figure col-xs-6 col-md-4 ">
+            <div class=" m0">
+              Only 4%
+            </div>
+            <div class="text ">of new users were making a booking</div>
+          </div>
+
+        </div>
+
         <p>
-          The Product team reached out to existing customers to figure out pain points in the booking process. We conducted interviews and surveys with several users and gathered information about their booking experience.
+          The Product team reached out to existing customers to figure out pain points in the booking process. We conducted interviews and surveys with several customers and gathered information about their booking experience.
         </p>
-        <p>
+        <br>
+        <p class="bold">
           This led to a bunch of problems being identified:
         </p>
 
+
         <ul class="bullets">
           <li>
-            The availability of the desired worker was revealed to the user at the end, upon submitting the form. This meant that users had to fill out the whole form, make all their choices about the kind of help and worker they needed, only to find out that there was no available slot to book.
+            The availability of a suitable worker was revealed at the end, upon submitting the form. This meant that users had to fill out the whole form, make all their choices about the kind of help they needed, only to find out that there was no fitting worker available.
           </li>
           <li>
-            There was no way to indicate which of the user's selection had resulted with 'no available slot'. It  may have been the timing, the service or a mismatch of the two, but there was no way for the user to know.
+            There was no indicatation which of the user's selections had returned no results. It  may have been the date, timing, service, gender, or a combination of all these.
           </li>
           <li>
-            Users often selected multiple services for which there was no matching worker. This problem occurred when the multiple services selected were not offered by an individual worker.
+            Users often selected multiple odd services for which there was no matching worker, such as ironing with babysitting.
           </li>
-          <li>
-            Lastly, the horizontal scroll that showed more slots was hard to discover.
-          </li>
+
         </ul>
 
       </div>
@@ -216,15 +227,16 @@
       <div class="col-md-6 mb24">
 
         <p>
-          With these problems identified, I built a hypothesis to rearrange the 'inputs' that a user had to provide. I proposed that input categories be presented in a rigid to flexible flow. The user will be asked to input 'rigid' requirements first, followed by more 'flexible' ones. We identified that location and booking date are rigid booking requirements; the user will need the worker at a certain date and location. However, duration and timing are requirements that a user will presumably be more flexible about. It is quite likely that the user changes their preference for time to get the next suitable slot.
+          With these problems identified, I proposed a hypothesis to rearrange the inputs that a user has to fill. A user will be asked to input more <b>‘rigid’</b> requirements first, such as location and date, followed by more <b>‘flexible’</b> requirements, such as duration or timing. It was assumed that the user might change their more flexible selections to get a match with an available worker.
         </p>
         <p>
-          To bring further clarity to the booking process, I suggested that step-wise availability feedback be provided to the user at every choice input, rather than at the end of the form. If a selection by the user results in no available slot, they were to be informed immediately.
+          Moreover a user will be provided feedback on every input by filtering out workers in real time. If a selection by the user results in no matches, they were to be informed immediately.
         </p>
 
-        <figure class="mt40">
-          <img width="100%" alt="order flow" src="../assets/images/projects/orderflow.jpg">
-          <figcaption>A rough flow outlined on a whiteboard during ideation</figcaption>
+
+        <figure class="mt40 col-md-8 offset-md-2">
+          <img width="100%" alt="order flow" src="../assets/images/projects/order_flow.png">
+          <figcaption>I rearranged the order of the inputs so that one time inputs came in first and more changeable inputs came in later</figcaption>
         </figure>
       </div>
 
@@ -243,23 +255,44 @@
       </div>
 
       <div class="col-md-6 mb24">
+
+        <div class="row">
+        <div class="col-md-6 mb40">
         <p>
-          The booking form was comprehensively redesigned for better feedback and flexibility. I analysed each feature of the form and it resulted in a change in outlook as well as the format of the form.
+          I divided the form into more steps, with only one input per screen. Keeping in view our target persona of middle aged women, it was decided within the team to sacrifice speed and go for an easier form. One input per screen meant that it took longer to make a booking but this format was more convenient in providing instant feedback to the user on a mismatch, so they change their selection at each step.
         </p>
-        <p>
-          I divided the form into further stages, with one input per screen. Keeping in view our target persona of middle aged women, it was decided within the team to sacrifice speed and go for a simpler form. One input per screen meant that it took longer to make a booking but this format was more convenient in providing instant feedback to the user of unavailable requirements, and for the user to make adjustments to their requirements.
-        </p>
+
+        </div>
+
+        <figure class="mb40 col-md-5 offset-md-1">
+          <img width="100%" alt="order flow" src="../assets/images/projects/OF_error.png">
+          <figcaption>On each selection, the booking API was called to see if there was match</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        After discussing feasibility with engineering team, I had the booking API called on each service selection. This gave user instant feedback over mismatching services, such as Laundry with Cooking.
+      </p>
+
         <p>
           A desire for a less intimidating interface was raised internally. For this, I introduced a warmer background colour and more conversational headings asking for an input.
         </p>
+
+        <div class="row mt40 mb40">
+          <div class="figure col-xs-6 col-md-3 ">
+            <img class="icon-48" alt="sketch" src="../assets/images/sketch.png">
+              <div class="text ">Design made in Sketch</div>
+          </div>
+
+          <div class="figure col-xs-6 col-md-3 offset-md-2">
+            <img class="icon-48" alt="Invision" src="../assets/images/invision.png">
+              <div class="text ">Protoyping in InVision</div>
+          </div>
+
+        </div>
+
         <p>
-          After discussing feasibility with engineering team, it was decided to call the booking API on each service selection. This gave user instant feedback over mismatching services. For instance, users were now able to know that there is no worker available who could do Laundry and also Babysit.
-        </p>
-        <p>
-          The horizontal scroll was replaced by a vertical one, with the review and payment section added to a new screen instead of a slide up model.
-        </p>
-        <p>
-          The mockups were designed in Sketch and made into a clickable prototype on Invision. It was then tested out with the customers to whom we had reached out during surveys. With a few design iterations, the new flow was implemented into the app.
+          We tested out the prototype with the customers to whom we had reached out during surveys. With a few design iterations, the new flow was implemented into the app.
         </p>
       </div>
 
@@ -315,18 +348,19 @@
         <p>
           The results were a bit spotty at the start due to development difficulties. However, after several fixes and app updates, the new booking flow finally started showing improvements.
         </p>
-        <p>
-          Tracking events for Google Analytics were set up on each input of the form, creating a conversion funnel. This allowed us to quantitatively analyse performance of the new form at each step and compare it with the previous flow.
-        </p>
 
         <div class="highlight">
           After many small iterations over a couple of months, the conversion rate increased by up to 6 times.
         </div>
+
+        <br>
         <p>
-          Performance of the funnel was still somewhat varied across sources and platforms. iOS performed better than Android and organic users converted better than those who came through advertisement. Formerly, the conversion rate averaged at 4%. After the new flow, the conversion rate averaged at around 18% while going up to 25% for some channels.
+          Performance of the funnel was still somewhat varied across sources and platforms. iOS performed better than Android and organic users converted better than those who came through advertisement. Formerly, the conversion rate averaged at 4%. After the new flow, the conversion rate averaged at around <b>18%</b> while going up to <b>25%</b> for some channels.
         </p>
-        <p>
-          Ultimately it solved a major obstacle for Mauqa Online, allowing the company to scale their customer base by 5 times.
+        <br>
+
+        <p class="bold center">
+          Ultimately it solved a major obstacle for Mauqa Online, allowing the company to scale their customer base by 5 times in six months.
         </p>
 
       </div>

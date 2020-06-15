@@ -577,7 +577,7 @@ img {
 
 figcaption, .caption {
     font-size: 0.75rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
     font-style: italic;
     text-align: center;
     font-weight: 500;
@@ -649,6 +649,11 @@ figcaption, .caption {
 
 .icon-24 {
     max-height: 24px;
+    align-self: baseline;
+}
+
+.icon-48 {
+    max-height: 48px;
     align-self: baseline;
 }
 
