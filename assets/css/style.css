@@ -496,6 +496,10 @@ li {
     margin-bottom: 12px;
 }
 
+a:hover .arrow {
+    margin-left: 4px;
+}
+
 
 header {
     min-height: 500px;
@@ -540,7 +544,7 @@ img {
     /* align-self: baseline; */
 }
 
-.underline h3 {
+.underline h3, a.btn {
     /* text-decoration: underline; */
     /* text-underline-position: under; */
     border: 1px solid #D59E74;
