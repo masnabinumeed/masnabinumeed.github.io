@@ -579,7 +579,7 @@ img {
     position: absolute;
     height: 100%;
     z-index: 100;
-    right: -15rem;
+    right: -20rem;
     top: 0rem;
     opacity: 0.5;
 }
