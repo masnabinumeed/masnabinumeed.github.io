@@ -476,7 +476,7 @@ a {
     transition: 200ms color;
 }
 
-a:hover, a:hover h2, a:hover h3, #featured a:hover h2, a.active {
+a:hover, a:hover h2, a:hover h3, #featured a:hover h2 {
     color: #FFF04C;
 }
 
@@ -533,6 +533,13 @@ footer {
 
 nav {
     margin-top: 32px;
+}
+
+
+nav a {color: rgba(255, 255, 255, 0.5);}
+
+a.active {
+    color: white;
 }
 
 
