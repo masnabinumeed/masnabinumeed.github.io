@@ -382,7 +382,8 @@ small {
 .cover {
     transition-duration: 500ms;
     transition-property: all;
-    max-width: 125%;
+    max-width: 150%;
+    margin-left: -25%;
 }
 
 
