@@ -519,8 +519,9 @@ header#home {
     min-height: 450px;
     overflow: visible;
     overflow-x: hidden;
-    min-height: 700px;
+    min-height: 720px;
     margin-bottom: -150px;
+    padding-top: 8rem;
 }
 
 section {
