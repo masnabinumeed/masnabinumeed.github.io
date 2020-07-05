@@ -471,7 +471,7 @@ em {
 }
 
 a {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     transition: 200ms color;
@@ -590,7 +590,7 @@ img {
     z-index: 100;
     right: -20rem;
     top: 0rem;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 .figure {
