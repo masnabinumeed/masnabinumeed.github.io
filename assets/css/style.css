@@ -511,17 +511,17 @@ header {
 
 header#home {
     /* background-image: url(../images/hero-photo.png); */
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position-x: 60vw;
-    background-position-y: 5rem;
-    margin-right: -16px;
-    min-height: 450px;
-    overflow: visible;
-    overflow-x: hidden;
-    min-height: 720px;
-    margin-bottom: -150px;
-    padding-top: 8rem;
+    /* background-size: 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: 60vw; */
+    /* background-position-y: 5rem; */
+    /* margin-right: -16px; */
+    /* min-height: 450px; */
+    /* overflow: visible; */
+    /* overflow-x: hidden; */
+    /* min-height: 750px; */
+    /* margin-bottom: -150px; */
+    padding-bottom: 6rem;
 }
 
 section {
