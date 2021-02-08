@@ -410,25 +410,26 @@ small {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     line-height: 44px;
-    color: #D59E74;
+    color: #f0aa75;
     font-weight: 900;
+    font-family: 'big shoulders display';
 }
 
 h2, .highlight, .figure {
-    font-size: 28px;
-    color: #D59E74;
-    line-height: 36px;
+    font-size: 32px;
+    color: #f0aa75;
+    line-height: 40px;
     margin-bottom: 12px;
     font-weight: 900;
-        transition: 200ms color;
-
+    transition: 200ms color;
+    font-family: 'big shoulders display';
 }
 
 h3 {
     font-size: 1.25rem;
-    color: #D59E74;
+    color: #f0aa75;
     margin-bottom: 12px;
     font-weight: 900;
         transition: 200ms color;
@@ -438,13 +439,14 @@ h3 {
 
 
 h4 {
-    font-size: 11px;
-    color: #D59E74;
-    letter-spacing: 2px;
+    font-size: 14px;
+    color: #f0aa75;
+    letter-spacing: 3px;
     text-transform: uppercase;
     line-height: 18px;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 12px;
+    font-family: 'big shoulders display';
 }
 
 
@@ -556,7 +558,7 @@ img {
 .underline h3, a.btn {
     /* text-decoration: underline; */
     /* text-underline-position: under; */
-    border: 1px solid #D59E74;
+    border: 1px solid #f0aa75;
     padding: 12px 48px;
     display: inline-block;
 }
@@ -575,7 +577,7 @@ img {
 .bar {
     display: block;
     height: 2px;
-    background: #D59E74;
+    background: #f0aa75;
     width: 100px;
 }
 
@@ -595,7 +597,7 @@ img {
 
 .figure {
     padding-left: 16px;
-    border-left: 4px solid #D59E74;
+    border-left: 4px solid #f0aa75;
 }
 
 
@@ -605,7 +607,7 @@ figcaption, .caption {
     font-style: italic;
     text-align: center;
     font-weight: 500;
-    color: #D59E74;
+    color: #f0aa75;
 }
 
 
