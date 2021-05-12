@@ -51,7 +51,7 @@ table {
 /* CSS reset end */
 
 @font-face {
-  font-family: 'Plus Jakarta Bold';
+  font-family: 'Plus Jakarta';
   src: url('/assets/fonts/PlusJakartaSans-Regular.woff');
 	src: url('/assets/fonts/PlusJakartaSans-Regular.woff') format('woff');
 	font-style     : normal;
@@ -59,7 +59,7 @@ table {
 }
 
 @font-face {
-  font-family: 'Plus Jakarta';
+  font-family: 'Plus Jakarta Bold';
   src: url('/assets/fonts/PlusJakartaSans-Bold.woff');
 	src: url('/assets/fonts/PlusJakartaSans-Bold.woff') format('woff');
 	font-style     : bold;
@@ -461,7 +461,7 @@ h4 {
     line-height: 22px;
     font-weight: 700;
     margin-bottom: 12px;
-    /* font-family: 'big shoulders display', 'inter'; */
+    font-family: 'Plus Jakarta Bold', 'inter';
 }
 
 
