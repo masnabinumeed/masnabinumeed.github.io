@@ -50,24 +50,9 @@ table {
 
 /* CSS reset end */
 
-@font-face {
-  font-family: 'Plus Jakarta';
-  src: url('/assets/fonts/PlusJakartaSans-Regular.woff');
-	src: url('/assets/fonts/PlusJakartaSans-Regular.woff') format('woff');
-	font-style     : normal;
-	font-weight    : normal;
-}
-
-@font-face {
-  font-family: 'Plus Jakarta Bold';
-  src: url('/assets/fonts/PlusJakartaSans-Bold.woff');
-	src: url('/assets/fonts/PlusJakartaSans-Bold.woff') format('woff');
-	font-style     : bold;
-	font-weight    : 700;
-}
 
 html, body, :root {
-  font-family: 'Plus Jakarta', 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.875rem;
   font-weight: 500;
   text-decoration: inherit;
