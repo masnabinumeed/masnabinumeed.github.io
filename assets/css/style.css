@@ -50,18 +50,23 @@ table {
 
 /* CSS reset end */
 
+@font-face {
+  font-family: 'Plus Jakarta';
+  src: url('assets/PlusJakartaSans-Bold.woff');
+	src: url('assets/PlusJakartaSans-Bold.woff') format('woff'),
+}
+
 html, body, :root {
-  font-family: 'Inter', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  line-height: 2rem;
+  font-family: 'Plus Jakarta', 'Inter', sans-serif;
+  line-height: 1.875rem;
   font-weight: 500;
   text-decoration: inherit;
   text-transform: inherit;
-  color: #c2bfbd;
-  background: #181818;
+  color: #c4beba;
+  background: hsl(20deg 2% 10%);
   margin: 0;
 }
+
 
 /* Helper classes */
 
@@ -410,21 +415,21 @@ small {
 }
 
 h1 {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 48px;
     color: #f0aa75;
-    font-weight: 900;
-    font-family: 'big shoulders display', 'inter';
+    font-weight: 700;
+    /* font-family: 'big shoulders display', 'inter'; */
 }
 
 h2, .highlight, .figure {
     font-size: 32px;
     color: #f0aa75;
-    line-height: 48px;
+    line-height: 40px;
     margin-bottom: 12px;
-    font-weight: 900;
+    font-weight: 700;
     transition: 200ms color;
-    font-family: 'big shoulders display', 'inter';
+    /* font-family: 'big shoulders display', 'inter'; */
 }
 
 h3 {
@@ -443,10 +448,10 @@ h4 {
     color: #f0aa75;
     letter-spacing: 3px;
     text-transform: uppercase;
-    line-height: 18px;
+    line-height: 22px;
     font-weight: 900;
     margin-bottom: 12px;
-    font-family: 'big shoulders display', 'inter';
+    /* font-family: 'big shoulders display', 'inter'; */
 }
 
 
@@ -705,8 +710,14 @@ figcaption, .caption {
     opacity: 0;
 }
 
-.opacity, .animate__animated {
+.onload, .lazyscroll {
 	opacity: 0;
+	transition: opacity 500ms ease-out;
+	transition-delay: 100ms;
+}
+
+.fadein {
+	opacity: 1;
 }
 
 #tasks #left {

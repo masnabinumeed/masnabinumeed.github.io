@@ -45,11 +45,16 @@ $(document).ready(function() {
   }
   // If element is scrolled into view, fade it in
   $(window).scroll(function() {
-    $(".animate__animated").each(function() {
+    $(".lazyscroll").each(function() {
       if (isScrolledIntoView(this) === true) {
-        $(this).addClass("animate__fadeIn");
+        $(this).addClass("fadein");
       }
     });
+  });
+
+
+  $( window ).on( "load", function() {
+    $(".onload").addClass("fadein");
   });
 
 });
