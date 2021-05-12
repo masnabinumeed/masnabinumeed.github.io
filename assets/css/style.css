@@ -51,9 +51,19 @@ table {
 /* CSS reset end */
 
 @font-face {
+  font-family: 'Plus Jakarta Bold';
+  src: url('/assets/PlusJakartaSans-Regular.woff');
+	src: url('/assets/PlusJakartaSans-Regular.woff') format('woff');
+	font-style     : normal;
+	font-weight    : normal;
+}
+
+@font-face {
   font-family: 'Plus Jakarta';
-  src: url('assets/PlusJakartaSans-Bold.woff');
-	src: url('assets/PlusJakartaSans-Bold.woff') format('woff'),
+  src: url('/assets/PlusJakartaSans-Bold.woff');
+	src: url('/assets/PlusJakartaSans-Bold.woff') format('woff');
+	font-style     : bold;
+	font-weight    : 700;
 }
 
 html, body, :root {
@@ -419,7 +429,7 @@ h1 {
     line-height: 48px;
     color: #f0aa75;
     font-weight: 700;
-    /* font-family: 'big shoulders display', 'inter'; */
+    font-family: 'Plus Jakarta Bold', 'inter';
 }
 
 h2, .highlight, .figure {
@@ -429,7 +439,7 @@ h2, .highlight, .figure {
     margin-bottom: 12px;
     font-weight: 700;
     transition: 200ms color;
-    /* font-family: 'big shoulders display', 'inter'; */
+    font-family: 'Plus Jakarta Bold', 'inter';
 }
 
 h3 {
