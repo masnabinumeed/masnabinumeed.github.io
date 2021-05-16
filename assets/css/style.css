@@ -57,7 +57,7 @@ html, body, :root {
   font-weight: 400;
   text-decoration: inherit;
   text-transform: inherit;
-  color: #c4beba;
+  color: hsl(24deg 10% 80%);
   background: hsl(20deg 2% 10%);
   margin: 0;
 }
@@ -339,6 +339,19 @@ html, body, :root {
 	float: right;
 }
 
+.float-down {
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {bottom: 16px}
+	50% {bottom: 8px}
+  100% {bottom: 16px;}
+}
+
 .text-right {
 	text-align: right;
 }
@@ -356,7 +369,7 @@ small {
 
 
 
-.container {
+.container, section {
   /* width: 100%; */
   padding: 0;
   margin: auto;
@@ -531,7 +544,7 @@ section {
 }
 
 footer {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-bottom: 5rem;
 }
 
@@ -595,7 +608,7 @@ img {
     opacity: 0.25;
 }
 
-.figure {
+.figure, blockquote {
     padding-left: 16px;
     border-left: 4px solid #f0aa75;
 }
@@ -737,11 +750,10 @@ main {
     margin-left: -16px;
     margin-right: -16px;
     white-space: nowrap;
-    wod:;
 }
 
 .screenscroll img {
-    max-width: 240px;
+    max-width: 320px;
     padding: 12px;
     display: inline-block;
 }
@@ -825,7 +837,7 @@ a i {
 
 /* for tablet and smaller */
 
-media (min-width: 576px)
+@media (min-width: 576px)
 .container, .container-sm {
     max-width: auto;
 }
