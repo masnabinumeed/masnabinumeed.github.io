@@ -57,7 +57,7 @@ html, body, :root {
   font-weight: 400;
   text-decoration: inherit;
   text-transform: inherit;
-  color: hsl(24deg 10% 80%);
+  color: hsl(24deg 10% 90%);
   background: hsl(20deg 2% 10%);
   margin: 0;
 }
@@ -426,27 +426,28 @@ h1 {
     font-size: 40px;
     line-height: 44px;
     color: #f0aa75;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
 
 h2, .highlight, .figure {
     font-size: 32px;
     color: #f0aa75;
-    line-height: 40px;
+    line-height: 36px;
     margin-bottom: 12px;
-    font-weight: 700;
+    font-weight: 400;
     transition: 200ms color;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
 
 h3 {
     font-size: 1.25rem;
+    line-height: 1.5rem;
     color: #f0aa75;
     margin-bottom: 12px;
-    font-weight: 900;
-        transition: 200ms color;
-
+    font-weight: 400;
+    transition: 200ms color;
 }
 
 
@@ -454,7 +455,7 @@ h3 {
 h4 {
     font-size: 12px;
     color: #f0aa75;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 22px;
     font-weight: 700;
@@ -478,7 +479,7 @@ h6 {
 
 p {
     margin-bottom: 16px;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 
 em {
