@@ -423,8 +423,8 @@ small {
 }
 
 h1 {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 44px;
+    line-height: 48px;
     color: #f0aa75;
     font-weight: 400;
     letter-spacing: -1px;
@@ -537,7 +537,7 @@ header#home {
     /* overflow-x: hidden; */
     /* min-height: 750px; */
     /* margin-bottom: -150px; */
-    padding-bottom: 6rem;
+    padding: 10rem 0;
 }
 
 section {
