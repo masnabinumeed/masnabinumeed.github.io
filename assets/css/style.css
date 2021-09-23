@@ -426,7 +426,7 @@ h1 {
     font-size: 44px;
     line-height: 48px;
     color: #f0aa75;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
@@ -436,7 +436,7 @@ h2, .highlight, .figure {
     color: #f0aa75;
     line-height: 36px;
     margin-bottom: 12px;
-    font-weight: 400;
+    font-weight: 500;
     transition: 200ms color;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
@@ -537,7 +537,7 @@ header#home {
     /* overflow-x: hidden; */
     /* min-height: 750px; */
     /* margin-bottom: -150px; */
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 section {
