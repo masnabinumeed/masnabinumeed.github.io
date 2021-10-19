@@ -342,7 +342,6 @@ html, body, :root {
 .float-down {
     position: absolute;
     left: 0;
-    bottom: 16px;
     animation: bounce 1s infinite;
 }
 
@@ -426,7 +425,7 @@ h1 {
     font-size: 44px;
     line-height: 48px;
     color: #f0aa75;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
@@ -434,9 +433,9 @@ h1 {
 h2, .highlight, .figure {
     font-size: 32px;
     color: #f0aa75;
-    line-height: 36px;
+    line-height: 40px;
     margin-bottom: 12px;
-    font-weight: 500;
+    font-weight: 600;
     transition: 200ms color;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
@@ -466,7 +465,7 @@ h4 {
 
 h5, p b, li b, .bold {
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 600;
   color: white;
   margin-bottom: 12px;
 }
@@ -479,10 +478,10 @@ h6 {
 
 p {
     margin-bottom: 16px;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
-em {
+em, i {
     font-style: italic;
 }
 
@@ -546,11 +545,16 @@ section {
 
 footer {
     /* margin-top: 5rem; */
+    max-width: 2160px;
+    margin: auto;
     margin-bottom: 5rem;
+    padding: 24px;
 }
 
 nav {
-    margin-top: 32px;
+    max-width: 2160px;
+    margin: auto;
+    padding: 24px;
 }
 
 
@@ -874,6 +878,10 @@ main {
 
 .texture {
     right: -25rem;
+}
+
+nav, footer {
+  padding: 0px;
 }
 
  }
