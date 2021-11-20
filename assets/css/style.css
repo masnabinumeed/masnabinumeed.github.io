@@ -395,12 +395,12 @@ small {
     transition-duration: 500ms;
     transition-property: all;
     max-width: 150%;
-    margin-left: -25%;
+    margin-left: -15%;
 }
 
 
 #projects .surface:hover .cover {
-    transform:scale(1.05)
+    transform: scale(0.9);
 }
 
 
