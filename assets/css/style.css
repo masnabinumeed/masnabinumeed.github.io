@@ -58,6 +58,7 @@ html, body, :root {
   text-decoration: inherit;
   text-transform: inherit;
   color: hsl(24deg 10% 90%);
+  color: hsl(40deg 12% 80%);
   background: hsl(20deg 2% 10%);
   margin: 0;
 }
@@ -425,6 +426,7 @@ h1 {
     font-size: 44px;
     line-height: 48px;
     color: #f0aa75;
+    color: ;
     font-weight: 700;
     letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
