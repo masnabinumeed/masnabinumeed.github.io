@@ -61,6 +61,7 @@ html, body, :root {
   color: hsl(40deg 12% 80%);
   background: hsl(20deg 2% 10%);
   margin: 0;
+  padding-top: 64px;
 }
 
 
@@ -556,7 +557,14 @@ footer {
 nav {
     max-width: 2160px;
     margin: auto;
-    padding: 24px;
+    padding: 16px 24px;
+    position: fixed;
+    width: 100%;
+    background: hsl(20deg 2% 10% / 25%);
+    margin: -16px;
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+    top: 16px;
 }
 
 
@@ -691,6 +699,11 @@ figcaption, .caption {
 
 #logo {
 	height: 32px;
+}
+
+.logo {
+    margin-top: 4px;
+    position: absolute;
 }
 
 .icon-24 {
@@ -883,7 +896,7 @@ main {
 }
 
 nav, footer {
-  padding: 0px;
+  /* padding: 0px; */
 }
 
  }
