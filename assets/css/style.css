@@ -560,7 +560,7 @@ nav {
     padding: 16px 24px;
     position: fixed;
     width: 100%;
-    background: hsl(20deg 2% 10% / 25%);
+    background: hsl(20deg 2% 10% / 50%);
     margin: -16px;
     z-index: 1000;
     backdrop-filter: blur(4px);
