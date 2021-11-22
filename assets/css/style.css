@@ -895,8 +895,8 @@ main {
     right: -25rem;
 }
 
-nav, footer {
-  /* padding: 0px; */
+footer {
+  padding: 0px;
 }
 
  }
