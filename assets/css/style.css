@@ -768,7 +768,7 @@ main {
     text-align: center;
     overflow: scroll;
     margin-left: -16px;
-    margin-right: -16px;
+    margin-right: -32px;
     white-space: nowrap;
 }
 
