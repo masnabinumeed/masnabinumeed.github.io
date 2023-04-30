@@ -52,14 +52,13 @@ table {
 
 
 html, body, :root {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Work Sans', 'Inter', sans-serif;
   line-height: 1.875rem;
   font-weight: 400;
   text-decoration: inherit;
   text-transform: inherit;
-  color: hsl(24deg 10% 90%);
-  color: hsl(40deg 12% 80%);
-  background: hsl(20deg 2% 10%);
+  color: #D2CEC6;
+  background: #1E201D;
   margin: 0;
   padding-top: 24px;
 }
@@ -377,7 +376,7 @@ small {
 }
 
 .surface {
-  background: #292D33;
+  background: #2E302D;
   box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50);
   border-radius: 8px;
   padding: 32px;
@@ -424,31 +423,33 @@ small {
 }
 
 h1 {
+    font-family: 'PP Fragment', 'Work Sans';
     font-size: 44px;
     line-height: 48px;
-    color: #f0aa75;
-    color: ;
-    font-weight: 700;
+    color: #B8C9AC;
+    font-weight: 100;
     letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
 
 h2, .highlight, .figure {
+    font-family: 'PP Fragment', 'Work Sans';
     font-size: 32px;
-    color: #f0aa75;
+    color: #B8C9AC;
     line-height: 40px;
     margin-bottom: 12px;
-    font-weight: 600;
+    font-weight: 100;
     transition: 200ms color;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
 }
 
 h3 {
+    font-family: 'PP Fragment', 'Work Sans';
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: #f0aa75;
+    color: #B8C9AC;
     margin-bottom: 12px;
-    font-weight: 500;
+    font-weight: 100;
     transition: 200ms color;
 }
 
@@ -456,7 +457,7 @@ h3 {
 
 h4 {
     font-size: 12px;
-    color: #f0aa75;
+    color: #B8C9AC;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 22px;
@@ -560,7 +561,6 @@ nav {
     padding: 16px 24px;
     position: fixed;
     width: 100%;
-    background: hsl(20deg 2% 10% / 50%);
     margin: -16px;
     z-index: 1000;
     backdrop-filter: blur(4px);
@@ -586,7 +586,7 @@ img {
 .underline h3, a.btn {
     /* text-decoration: underline; */
     /* text-underline-position: under; */
-    border: 1px solid #f0aa75;
+    border: 1px solid #B8C9AC;
     padding: 12px 48px;
     display: inline-block;
 }
@@ -605,7 +605,7 @@ img {
 .bar {
     display: block;
     height: 2px;
-    background: #f0aa75;
+    background: #B8C9AC;
     width: 100px;
 }
 
@@ -625,7 +625,7 @@ img {
 
 .figure, blockquote {
     padding-left: 16px;
-    border-left: 4px solid #f0aa75;
+    border-left: 4px solid #B8C9AC;
 }
 
 
@@ -635,7 +635,7 @@ figcaption, .caption {
     font-style: italic;
     text-align: center;
     font-weight: 500;
-    color: #f0aa75;
+    color: #B8C9AC;
 }
 
 
