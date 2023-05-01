@@ -25,7 +25,19 @@ time, mark, audio, video {
 
 @font-face {
   font-family: PP Fragment;
-  src: url(../PPFragment-GlareLight.otf);
+  src: url(../fonts/PPFragment-GlareLight.otf);
+}
+
+@font-face {
+  font-family: PP Mori;
+  src: url(../fonts/PPMori-Regular.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: PP Mori;
+  src: url(../fonts/PPMori-SemiBold.otf);
+  font-weight: 300;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -58,7 +70,7 @@ table {
 
 
 html, body, :root {
-  font-family: 'Work Sans', 'Inter', sans-serif;
+  font-family: 'PP Mori', 'Work Sans', sans-serif;
   line-height: 1.875rem;
   font-weight: 400;
   text-decoration: inherit;
