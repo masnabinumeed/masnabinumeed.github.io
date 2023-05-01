@@ -22,6 +22,12 @@ time, mark, audio, video {
 	color: inherit;
 	text-decoration: inherit;
 }
+
+@font-face {
+  font-family: PP Fragment;
+  src: url(../PPFragment-GlareLight.otf);
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
