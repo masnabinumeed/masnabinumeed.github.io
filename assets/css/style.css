@@ -31,13 +31,13 @@ time, mark, audio, video {
 @font-face {
   font-family: PP Mori;
   src: url(../fonts/PPMori-Regular.otf);
-  font-weight: 100;
+  font-weight: 300;
 }
 
 @font-face {
   font-family: PP Mori;
   src: url(../fonts/PPMori-SemiBold.otf);
-  font-weight: 300;
+  font-weight: 500;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -72,7 +72,7 @@ table {
 html, body, :root {
   font-family: 'PP Mori', 'Work Sans', sans-serif;
   line-height: 1.875rem;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: inherit;
   text-transform: inherit;
   color: #D2CEC6;
@@ -487,7 +487,7 @@ h4 {
 
 h5, p b, li b, .bold {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   margin-bottom: 12px;
 }
