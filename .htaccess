@@ -17,6 +17,11 @@ RewriteRule ^(.*)$ $1.html
 
 RedirectMatch 404 /\.git
 
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /projects/zameen-add-property.html.htpasswd
+require valid-user
+
 # Don't allow anyone to see my .htaccess file
 <Files .htaccess>
   Order allow,deny
