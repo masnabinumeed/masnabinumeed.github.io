@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="56px" height="26px" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon-layout</title>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Home" transform="translate(-652.000000, -1023.000000)" stroke="#FFFFFF" stroke-width="2">
-            <g id="icon-layout" transform="translate(653.000000, 1024.000000)">
-                <g id="Group">
-                    <rect id="Rectangle" x="0" y="0" width="36" height="24"></rect>
-                    <rect id="Rectangle-Copy-9" x="42" y="0" width="12" height="24"></rect>
-                    <rect id="Rectangle-Copy-8" x="6" y="6" width="24" height="12"></rect>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="56" height="26" viewBox="0 0 56 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g id="icon-layout">
+<path id="Rectangle" width="36" height="24" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M1 1 L37 1 L37 25 L1 25 Z" class="YaLWvFJo_0"></path>
+<path id="Rectangle Copy 9" width="12" height="24" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M43 1 L55 1 L55 25 L43 25 Z" class="YaLWvFJo_1"></path>
+<path id="Rectangle Copy 8" width="24" height="12" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M7 7 L31 7 L31 19 L7 19 Z" class="YaLWvFJo_2"></path>
+</g>
+<style data-made-with="vivus-instant">.YaLWvFJo_0{stroke-dasharray:120 122;stroke-dashoffset:121;animation:YaLWvFJo_draw_0 2100ms ease-in-out 0ms infinite,YaLWvFJo_fade 2100ms linear 0ms infinite;}.YaLWvFJo_1{stroke-dasharray:72 74;stroke-dashoffset:73;animation:YaLWvFJo_draw_1 2100ms ease-in-out 0ms infinite,YaLWvFJo_fade 2100ms linear 0ms infinite;}.YaLWvFJo_2{stroke-dasharray:72 74;stroke-dashoffset:73;animation:YaLWvFJo_draw_2 2100ms ease-in-out 0ms infinite,YaLWvFJo_fade 2100ms linear 0ms infinite;}@keyframes YaLWvFJo_draw{100%{stroke-dashoffset:0;}}@keyframes YaLWvFJo_fade{0%{stroke-opacity:1;}95.23809523809524%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes YaLWvFJo_draw_0{0%{stroke-dashoffset: 121}31.74603174603175%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes YaLWvFJo_draw_1{7.936507936507936%{stroke-dashoffset: 73}39.682539682539684%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes YaLWvFJo_draw_2{15.873015873015872%{stroke-dashoffset: 73}47.61904761904761%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>

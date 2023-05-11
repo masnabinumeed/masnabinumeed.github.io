@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="86px" height="28px" viewBox="0 0 86 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon-shapes</title>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Home" transform="translate(-52.000000, -1021.000000)" stroke="#FFFFFF" stroke-width="2">
-            <g id="icon-shapes" transform="translate(53.000000, 1024.000000)">
-                <rect id="Rectangle-Copy-3" x="0" y="0" width="24" height="24"></rect>
-                <rect id="Rectangle-Copy-5" x="30" y="0" width="24" height="24" rx="12"></rect>
-                <polygon id="Triangle" points="70.5 0 82.5 24 58.5 24"></polygon>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="86" height="28" viewBox="0 0 86 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g id="icon-shapes">
+<path id="Rectangle Copy 3" width="24" height="24" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M1 3 L25 3 L25 27 L1 27 Z" class="xEMETFJY_0"></path>
+<path id="Rectangle Copy 5" width="24" height="24" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M 43,3 L 43,3 A 12,12,0,0,1,55,15 L 55,15 A 12,12,0,0,1,43,27 L 43,27 A 12,12,0,0,1,31,15 L 31,15 A 12,12,0,0,1,43,3" class="xEMETFJY_1"></path>
+<path id="Triangle" fill-rule="evenodd" clip-rule="evenodd" d="M71.5 3L83.5 27H59.5L71.5 3Z" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" class="xEMETFJY_2"></path>
+</g>
+<style data-made-with="vivus-instant">.xEMETFJY_0{stroke-dasharray:96 98;stroke-dashoffset:97;animation:xEMETFJY_draw_0 2100ms ease-in-out 0ms infinite,xEMETFJY_fade 2100ms linear 0ms infinite;}.xEMETFJY_1{stroke-dasharray:76 78;stroke-dashoffset:77;animation:xEMETFJY_draw_1 2100ms ease-in-out 0ms infinite,xEMETFJY_fade 2100ms linear 0ms infinite;}.xEMETFJY_2{stroke-dasharray:78 80;stroke-dashoffset:79;animation:xEMETFJY_draw_2 2100ms ease-in-out 0ms infinite,xEMETFJY_fade 2100ms linear 0ms infinite;}@keyframes xEMETFJY_draw{100%{stroke-dashoffset:0;}}@keyframes xEMETFJY_fade{0%{stroke-opacity:1;}95.23809523809524%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes xEMETFJY_draw_0{0%{stroke-dashoffset: 97}31.74603174603175%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes xEMETFJY_draw_1{7.936507936507936%{stroke-dashoffset: 77}39.682539682539684%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes xEMETFJY_draw_2{15.873015873015872%{stroke-dashoffset: 79}47.61904761904761%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
