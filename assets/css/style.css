@@ -78,7 +78,7 @@ html, body, :root {
   color: #D2CEC6;
   background: #1E201D;
   margin: 0;
-  padding-top: 24px;
+  /* padding-top: 24px; */
 }
 
 
@@ -442,8 +442,8 @@ small {
 
 h1 {
     font-family: 'PP Fragment', 'Work Sans';
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 4rem;
+    line-height: 4rem;
     color: #B8C9AC;
     font-weight: 100;
     letter-spacing: -1px;
@@ -500,7 +500,7 @@ h6 {
 
 p {
     margin-bottom: 16px;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
 em, i {
@@ -509,13 +509,15 @@ em, i {
 
 a {
     font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 700;
     color: white;
     transition: 200ms color;
+    display: inline-block;
 }
 
 a:hover, a:hover h2, a:hover h3, #featured a:hover h2 {
-    color: #FFF04C;
+    color: #B8C9AC;
 }
 
 p a, ul a {
@@ -542,7 +544,7 @@ a:hover .arrow {
 header {
     min-height: 500px;
     position: relative;
-    padding-top: 6rem;
+    padding-top: 10rem;
     overflow-x: hidden;
 }
 
@@ -558,6 +560,7 @@ header#home {
     /* overflow-x: hidden; */
     /* min-height: 750px; */
     /* margin-bottom: -150px; */
+    top: 16px;
     padding: 8rem 0;
 }
 
@@ -574,19 +577,21 @@ footer {
 }
 
 nav {
-    max-width: 2160px;
-    margin: auto;
-    padding: 16px 24px;
-    position: fixed;
+    /* max-width: 2160px; */
+    /* margin: auto; */
+    /* padding: 16px 24px; */
+    /* position: fixed; */
     width: 100%;
-    margin: -16px;
-    z-index: 1000;
-    backdrop-filter: blur(4px);
-    top: 16px;
+    /* margin: -16px; */
+    /* z-index: 1000; */
+    /* backdrop-filter: blur(4px); */
+    /* top: 0; */
 }
 
 
 nav a {color: rgba(255, 255, 255, 0.5);}
+
+.nav-content {border-bottom: 0.1px solid #D2CEC675;padding: 32px 0;}
 
 a.active {
     color: white;
@@ -626,6 +631,8 @@ img {
     background: #B8C9AC;
     width: 100px;
 }
+
+.bottom-border {border-bottom: 0.25px solid #D2CEC675;}
 
 .bullets {
     list-style: disc;
@@ -720,8 +727,8 @@ figcaption, .caption {
 }
 
 .logo {
-    margin-top: 4px;
-    position: absolute;
+    margin-top: -4px;
+    /* position: absolute; */
 }
 
 .icon-24 {
