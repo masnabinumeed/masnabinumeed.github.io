@@ -433,9 +433,9 @@ small {
 }
 
 .casestudy-img {
-    max-height: 300px;
+    max-height: 350px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     /* padding-left: 56px; */
 }
@@ -452,9 +452,9 @@ h1 {
 
 h2, .highlight, .figure {
     font-family: 'PP Fragment', 'Work Sans';
-    font-size: 32px;
+    font-size: 2.5rem;
     color: #B8C9AC;
-    line-height: 40px;
+    line-height: 2.75rem;
     margin-bottom: 12px;
     font-weight: 100;
     transition: 200ms color;
