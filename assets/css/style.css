@@ -442,8 +442,8 @@ small {
 
 h1 {
     font-family: 'PP Fragment', 'Work Sans';
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
     color: #B8C9AC;
     font-weight: 100;
     letter-spacing: -1px;
@@ -560,8 +560,8 @@ header#home {
     /* overflow-x: hidden; */
     /* min-height: 750px; */
     /* margin-bottom: -150px; */
-    top: 16px;
-    padding: 8rem 0;
+    /* top: 16px; */
+    /* padding: 8rem 0; */
 }
 
 section {
@@ -591,7 +591,7 @@ nav {
 
 nav a {color: rgba(255, 255, 255, 0.5);}
 
-.nav-content {border-bottom: 0.1px solid #D2CEC675;padding: 32px 0;}
+.nav-content {border-bottom: 0.1px solid #D2CEC675;padding: 24px 0;}
 
 a.active {
     color: white;
@@ -729,6 +729,11 @@ figcaption, .caption {
 .logo {
     margin-top: -4px;
     /* position: absolute; */
+}
+
+.logo-showcase {
+  max-height: 40px;
+  margin-bottom: 16px;
 }
 
 .icon-24 {
