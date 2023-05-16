@@ -435,7 +435,7 @@ small {
 .casestudy-img {
     max-height: 350px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     /* padding-left: 56px; */
 }
