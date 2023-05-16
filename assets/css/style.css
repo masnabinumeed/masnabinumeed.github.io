@@ -413,8 +413,8 @@ small {
 .cover {
     transition-duration: 500ms;
     transition-property: all;
-    max-width: 150%;
-    margin-left: -15%;
+    max-width: 125%;
+    margin-left: 0%;
 }
 
 
@@ -537,7 +537,8 @@ li {
 }
 
 a:hover .arrow {
-    margin-left: 4px;
+    position: relative;
+    right: -8px;
 }
 
 a:hover .icon-out {
