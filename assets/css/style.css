@@ -540,6 +540,12 @@ a:hover .arrow {
     margin-left: 4px;
 }
 
+a:hover .icon-out {
+  position: relative;
+  top: -4px;
+  right: -4px;
+}
+
 
 header {
     min-height: 500px;
@@ -570,10 +576,10 @@ section {
 
 footer {
     /* margin-top: 5rem; */
-    max-width: 2160px;
-    margin: auto;
-    margin-bottom: 5rem;
-    padding: 24px;
+    /* max-width: 2160px; */
+    /* margin: auto; */
+    margin-bottom: 4rem !important;
+    /* padding: 24px; */
 }
 
 nav {
@@ -581,7 +587,7 @@ nav {
     /* margin: auto; */
     /* padding: 16px 24px; */
     /* position: fixed; */
-    width: 100%;
+    /* width: 100%; */
     /* margin: -16px; */
     /* z-index: 1000; */
     /* backdrop-filter: blur(4px); */
