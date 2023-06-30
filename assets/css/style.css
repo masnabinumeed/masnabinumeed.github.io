@@ -490,6 +490,7 @@ h5, p b, li b, .bold {
   font-weight: 500;
   color: white;
   margin-bottom: 12px;
+  text-decoration: none;
 }
 
 h6 {
