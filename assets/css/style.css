@@ -709,6 +709,24 @@ figcaption, .caption {
     color: white;
 }
 
+.submit-btn {
+  padding: 0.5rem 1rem;
+  background: #D2CEC675;
+  border: 1px solid #D2CEC675;
+
+}
+
+.input {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border: 0.25px solid #D2CEC675;
+  font-size: 1rem;
+  padding: .5rem;
+  color: #fff;
+}
+
 .center {
     text-align: center;
     width: 100%;
