@@ -768,6 +768,11 @@ figcaption, .caption {
     align-self: baseline;
 }
 
+.icon-32 {
+  max-height: 32px;
+  align-self: baseline;
+}
+
 .icon-48 {
     max-height: 48px;
     align-self: baseline;
