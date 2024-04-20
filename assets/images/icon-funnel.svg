@@ -1,8 +1,8 @@
-<svg width="80" height="26" viewBox="0 0 80 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<svg width="60" height="46" viewBox="0 0 60 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="icon-funnel">
-<path id="Rectangle" width="15" height="24" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M1 1 L16 1 L16 25 L1 25 Z" class="BfaSaaYL_0"></path>
-<path id="Rectangle Copy 4" width="15" height="18.75" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M22 6.25 L37 6.25 L37 25 L22 25 Z" class="BfaSaaYL_1"></path>
-<path id="Rectangle Copy 6" width="15" height="8.25" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M43 16.75 L58 16.75 L58 25 L43 25 Z" class="BfaSaaYL_2"></path>
-<path id="Rectangle Copy 7" width="15" height="5.25" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" d="M64 19.75 L79 19.75 L79 25 L64 25 Z" class="BfaSaaYL_3"></path>
+<rect id="Rectangle" x="1" y="1" width="11.1538" height="44" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
+<rect id="Rectangle Copy 4" x="16.6154" y="18.4375" width="11.1538" height="26.5625" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
+<rect id="Rectangle Copy 6" x="32.2308" y="23.3125" width="11.1538" height="21.6875" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
+<rect id="Rectangle Copy 7" x="47.8462" y="37.5625" width="11.1538" height="7.4375" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
 </g>
-<style data-made-with="vivus-instant">.BfaSaaYL_0{stroke-dasharray:78 80;stroke-dashoffset:79;animation:BfaSaaYL_draw_0 2100ms ease-in-out 0ms infinite,BfaSaaYL_fade 2100ms linear 0ms infinite;}.BfaSaaYL_1{stroke-dasharray:68 70;stroke-dashoffset:69;animation:BfaSaaYL_draw_1 2100ms ease-in-out 0ms infinite,BfaSaaYL_fade 2100ms linear 0ms infinite;}.BfaSaaYL_2{stroke-dasharray:47 49;stroke-dashoffset:48;animation:BfaSaaYL_draw_2 2100ms ease-in-out 0ms infinite,BfaSaaYL_fade 2100ms linear 0ms infinite;}.BfaSaaYL_3{stroke-dasharray:41 43;stroke-dashoffset:42;animation:BfaSaaYL_draw_3 2100ms ease-in-out 0ms infinite,BfaSaaYL_fade 2100ms linear 0ms infinite;}@keyframes BfaSaaYL_draw{100%{stroke-dashoffset:0;}}@keyframes BfaSaaYL_fade{0%{stroke-opacity:1;}95.23809523809524%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes BfaSaaYL_draw_0{0%{stroke-dashoffset: 79}31.74603174603175%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes BfaSaaYL_draw_1{5.291005291005291%{stroke-dashoffset: 69}37.03703703703704%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes BfaSaaYL_draw_2{10.582010582010582%{stroke-dashoffset: 48}42.32804232804233%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes BfaSaaYL_draw_3{15.873015873015872%{stroke-dashoffset: 42}47.61904761904761%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
+</svg>

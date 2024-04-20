@@ -76,6 +76,7 @@ html, body, :root {
   text-decoration: inherit;
   text-transform: inherit;
   color: #D2CEC6;
+  color: #fff;
   background: #1E201D;
   margin: 0;
   /* padding-top: 24px; */
@@ -106,105 +107,109 @@ html, body, :root {
   margin-bottom: 0 !important;
 }
 
+.m2 {
+  margin: 2px !important;
+}
+
 .m8 {
-  margin: 8px;
+  margin: 8px !important;
 }
 
 .m12 {
-  margin: 12px;
+  margin: 12px !important;
 }
 
 .m16 {
-  margin: 16px;
+  margin: 16px !important;
 }
 
 .m24 {
-  margin: 24px;
+  margin: 24px !important;
 }
 
 .m40 {
-  margin: 40px;
+  margin: 40px !important;
 }
 
 .ml8 {
-  margin-left: 8px;
+  margin-left: 8px !important;
 }
 
 .mt8 {
-  margin-top: 8px;
+  margin-top: 8px !important;
 }
 
 .mr8 {
-  margin-right: 8px;
+  margin-right: 8px !important;
 }
 
 .mb8 {
-  margin-bottom: 8px;
+  margin-bottom: 8px !important;
 }
 
 .ml12 {
-  margin-left: 12px;
+  margin-left: 12px !important;
 }
 
 .mt12 {
-  margin-top: 12px;
+  margin-top: 12px !important;
 }
 
 .mr12 {
-  margin-right: 12px;
+  margin-right: 12px !important;
 }
 
 .mb12 {
-  margin-bottom: 12px;
+  margin-bottom: 12px !important;
 }
 
 .ml16 {
-  margin-left: 16px;
+  margin-left: 16px !important;
 }
 
 .mt16 {
-  margin-top: 16px;
+  margin-top: 16px !important;
 }
 
 .mr16 {
-  margin-right: 16px;
+  margin-right: 16px !important;
 }
 
 .mb16 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
 }
 
 
 .ml24 {
-  margin-left: 24px;
+  margin-left: 24px !important;
 }
 
 .mt24 {
-  margin-top: 24px;
+  margin-top: 24px !important;
 }
 
 .mr24 {
-  margin-right: 24px;
+  margin-right: 24px !important;
 }
 
 .mb24 {
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
 }
 
 .ml40 {
-  margin-left: 40px;
+  margin-left: 40px !important;
 }
 
 .mb40 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 .mt40 {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 .mr40 {
-  margin-right: 40px;
+  margin-right: 40px !important;
 }
 
 .p0 {
@@ -227,108 +232,109 @@ html, body, :root {
   padding-bottom: 0 !important;
 }
 
+
 .p8 {
-  padding: 8px;
+  padding: 8px !important;
 }
 
 .p12 {
-  padding: 12px;
+  padding: 12px !important;
 }
 
 .p16 {
-  padding: 16px;
+  padding: 16px !important;
 }
 
 .p24 {
-  padding: 24px;
+  padding: 24px !important;
 }
 
 .p40 {
-  padding: 40px;
+  padding: 40px !important;
 }
 
 .p48 {
-  padding: 48px;
+  padding: 48px !important;
 }
 
 .pl8 {
-  padding-left: 8px;
+  padding-left: 8px !important;
 }
 
 .pt8 {
-  padding-top: 8px;
+  padding-top: 8px !important;
 }
 
 .pr8 {
-  padding-right: 8px;
+  padding-right: 8px !important;
 }
 
 .pb8 {
-  padding-bottom: 8px;
+  padding-bottom: 8px !important;
 }
 
 .pl12 {
-  padding-left: 12px;
+  padding-left: 12px !important;
 }
 
 .pt12 {
-  padding-top: 12px;
+  padding-top: 12px !important;
 }
 
 .pr12 {
-  padding-right: 12px;
+  padding-right: 12px !important;
 }
 
 .pb12 {
-  padding-bottom: 12px;
+  padding-bottom: 12px !important;
 }
 
 .pl16 {
-  padding-left: 16px;
+  padding-left: 16px !important;
 }
 
 .pt16 {
-  padding-top: 16px;
+  padding-top: 16px !important;
 }
 
 .pr16 {
-  padding-right: 16px;
+  padding-right: 16px !important;
 }
 
 .pb16 {
-  padding-bottom: 12px;
+  padding-bottom: 12px !important;
 }
 
 .pl24 {
-  padding-left: 24px;
+  padding-left: 24px !important;
 }
 
 .pt24 {
-  padding-top: 24px;
+  padding-top: 24px !important;
 }
 
 .pr24 {
-  padding-right: 24px;
+  padding-right: 24px !important;
 }
 
 .pb24 {
-  padding-bottom: 24px;
+  padding-bottom: 24px !important;
 }
 
 .pl40 {
-  padding-left: 40px;
+  padding-left: 40px !important;
 }
 
 .pt40 {
-  padding-top: 40px;
+  padding-top: 40px !important;
 }
 
 .pr40 {
-  padding-right: 40px;
+  padding-right: 40px !important;
 }
 
 .pb40 {
-  padding-bottom: 40px;
+  padding-bottom: 40px !important;
 }
 
 .red {
@@ -396,6 +402,7 @@ small {
 .surface {
   background: #2E302D;
   box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50);
+  border: 2px solid #1E201D;
   border-radius: 8px;
   padding: 32px;
   display: block;
@@ -518,7 +525,7 @@ a {
 }
 
 a:hover, a:hover h2, a:hover h3, #featured a:hover h2 {
-    color: #B8C9AC;
+    color: #D2CEC6;
 }
 
 p a, ul a {
@@ -573,7 +580,7 @@ header#home {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 
 footer {
@@ -775,6 +782,7 @@ figcaption, .caption {
 
 .icon-48 {
     max-height: 48px;
+    max-width: 48px;
     align-self: baseline;
 }
 
