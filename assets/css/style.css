@@ -524,6 +524,10 @@ a {
     display: inline-block;
 }
 
+.fawn {
+  color: #D2CEC6;
+}
+
 a:hover, a:hover h2, a:hover h3, #featured a:hover h2 {
     color: #D2CEC6;
 }
@@ -783,7 +787,7 @@ figcaption, .caption {
 .icon-48 {
     max-height: 48px;
     max-width: 48px;
-    align-self: baseline;
+    /* align-self: baseline; */
 }
 
 .progress {
