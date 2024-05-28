@@ -1,10 +1,1 @@
-<svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="15" height="15" rx="7.5" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<path d="M8.5 16V28" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<path d="M43.5 9H29V22.7544H52V32.5" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<path d="M8 43V49H59V43H52.5" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<path d="M42.5 35L18 35" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<rect x="1" y="28" width="15" height="15" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<rect x="44" y="1" width="15" height="15" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square"/>
-<path d="M52 28V43L42 35.5L52 28Z" stroke="#B8C9AC" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel"/>
-</svg>
+<svg fill="none" height="50" viewBox="0 0 60 50" width="60" xmlns="http://www.w3.org/2000/svg"><g stroke="#b8c9ac" stroke-linecap="square" stroke-width="2"><rect height="15" rx="7.5" width="15" x="1" y="1"/><path d="m8.5 16v12"/><path d="m43.5 9h-14.5v13.7544h23v9.7456"/><path d="m8 43v6h51v-6h-6.5"/><path d="m42.5 35h-24.5"/><path d="m1 28h15v15h-15z"/><path d="m44 1h15v15h-15z"/><path d="m52 28v15l-10-7.5z" stroke-linejoin="bevel"/></g></svg>
