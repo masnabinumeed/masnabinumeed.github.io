@@ -70,7 +70,7 @@ table {
 
 
 html, body, :root {
-  font-family: 'PP Mori', 'Work Sans', sans-serif;
+  font-family: 'PP Mori', sans-serif;
   line-height: 1.875rem;
   font-weight: 300;
   text-decoration: inherit;
@@ -448,7 +448,7 @@ small {
 }
 
 h1 {
-    font-family: 'PP Fragment', 'Work Sans';
+    font-family: 'PP Fragment', sans-serif;
     font-size: 3.5rem;
     line-height: 3.5rem;
     color: #B8C9AC;
@@ -458,7 +458,7 @@ h1 {
 }
 
 h2, .highlight, .figure {
-    font-family: 'PP Fragment', 'Work Sans';
+    font-family: 'PP Fragment', sans-serif;
     font-size: 2.5rem;
     color: #B8C9AC;
     line-height: 2.75rem;
@@ -469,7 +469,7 @@ h2, .highlight, .figure {
 }
 
 h3 {
-    font-family: 'PP Fragment', 'Work Sans';
+    font-family: 'PP Fragment', sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
     color: #B8C9AC;
