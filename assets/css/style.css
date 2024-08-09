@@ -29,6 +29,11 @@ time, mark, audio, video {
 }
 
 @font-face {
+  font-family: PP Fragment Italic;
+  src: url(../fonts/PPFragment-GlareLightItalic.otf);
+}
+
+@font-face {
   font-family: PP Mori;
   src: url(../fonts/PPMori-Regular.otf);
   font-weight: 300;
@@ -345,6 +350,9 @@ html, body, :root {
     color: white;
 }
 
+.olive {
+  color: #B8C9AC;
+}
 
 
 .space-divider {
@@ -399,8 +407,22 @@ small {
   margin: auto;
 }
 
+.grid-container-col{
+  display: grid;
+  gap: 48px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  place-items: start;
+}
+
+.grid-container-row{
+  display: grid;
+  gap: 48px;
+  grid-template-rows: 1fr;
+  place-items: start;
+}
+
 .surface {
-  background: #2E302D;
+  background: #292A27;
   /* box-shadow: 0 5px 10px -5px rgba(0,0,0,0.50); */
   border: 2px solid #1E201D;
   border-radius: 8px;
@@ -522,6 +544,27 @@ a {
     color: white;
     transition: 200ms color;
     display: inline-block;
+}
+
+
+.quote {
+    font-family: 'PP Fragment Italic';
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.quote::before {
+  content: '“';
+  position: absolute;
+  margin-left: -10px;
+}
+
+.quote::after {
+  content: '”';
+  position: absolute;
 }
 
 .fawn {
