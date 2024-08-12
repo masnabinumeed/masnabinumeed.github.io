@@ -627,7 +627,7 @@ header#home {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 footer {
@@ -1025,6 +1025,10 @@ main {
 
 footer {
   padding: 0px;
+}
+
+section {
+  padding: 4rem 0;
 }
 
  }
