@@ -857,12 +857,23 @@ figcaption, .caption {
 
 .onload, .lazyscroll {
 	opacity: 0;
-	transition: opacity 500ms ease-out;
+	translate: -8px 0px;
+	transition: all 400ms ease-out;
 	transition-delay: 100ms;
 }
 
+.onload{
+	opacity: 0;
+	filter: blur(12px);
+	transition: all 800ms ease-out;
+	transition-delay: 100ms;
+}
+
+
 .fadein {
 	opacity: 1;
+	filter: blur(0px);
+	translate: 0;
 }
 
 #tasks #left {
