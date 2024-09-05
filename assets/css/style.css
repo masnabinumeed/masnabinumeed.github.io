@@ -351,7 +351,7 @@ html, body, :root {
 }
 
 .olive {
-  color: #B8C9AC;
+  color: #A8BC99;
 }
 
 
@@ -473,7 +473,7 @@ h1 {
     font-family: 'PP Fragment', sans-serif;
     font-size: 3.5rem;
     line-height: 3.5rem;
-    color: #B8C9AC;
+    color: #A8BC99;
     font-weight: 100;
     letter-spacing: -1px;
     /* font-family: 'Plus Jakarta Bold', 'inter'; */
@@ -482,7 +482,7 @@ h1 {
 h2, .highlight, .figure {
     font-family: 'PP Fragment', sans-serif;
     font-size: 2.5rem;
-    color: #B8C9AC;
+    color: #A8BC99;
     line-height: 2.75rem;
     margin-bottom: 12px;
     font-weight: 100;
@@ -494,7 +494,7 @@ h3 {
     font-family: 'PP Fragment', sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #B8C9AC;
+    color: #A8BC99;
     margin-bottom: 12px;
     font-weight: 100;
     transition: 200ms color;
@@ -504,7 +504,7 @@ h3 {
 
 h4 {
     font-size: 12px;
-    color: #B8C9AC;
+    color: #A8BC99;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 22px;
@@ -671,7 +671,7 @@ img {
 .underline h3, a.btn {
     /* text-decoration: underline; */
     /* text-underline-position: under; */
-    border: 1px solid #B8C9AC;
+    border: 1px solid #A8BC99;
     padding: 12px 48px;
     display: inline-block;
 }
@@ -690,7 +690,7 @@ img {
 .bar {
     display: block;
     height: 2px;
-    background: #B8C9AC;
+    background: #A8BC99;
     width: 100px;
 }
 
@@ -712,7 +712,7 @@ img {
 
 .figure, blockquote {
     padding-left: 16px;
-    border-left: 4px solid #B8C9AC;
+    border-left: 4px solid #A8BC99;
 }
 
 
@@ -722,7 +722,7 @@ figcaption, .caption {
     font-style: italic;
     text-align: center;
     font-weight: 500;
-    color: #B8C9AC;
+    color: #A8BC99;
 }
 
 
@@ -765,8 +765,8 @@ figcaption, .caption {
 
 .submit-btn {
   padding: 0.5rem 1rem;
-  background: #B8C9AC;
-  border: 1px solid #B8C9AC;
+  background: #A8BC99;
+  border: 1px solid #A8BC99;
   font-size: 1rem;
 
 }
