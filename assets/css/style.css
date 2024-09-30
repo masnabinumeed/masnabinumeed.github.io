@@ -607,7 +607,7 @@ header {
     min-height: 500px;
     position: relative;
     padding-top: 10rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header#home {
