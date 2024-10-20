@@ -516,7 +516,7 @@ h4 {
 }
 
 
-h5, p b, li b, .bold {
+h5, .h5, p b, li b, .bold {
   font-size: 1.25rem;
   font-weight: 500;
   color: white;
@@ -696,7 +696,7 @@ img {
     width: 100px;
 }
 
-.bottom-border {border-bottom: 0.25px solid #D2CEC675;}
+.bottom-border {padding-bottom: 4px;border-bottom: 1px solid #D2CEC6;}
 
 .bulLet's {
     list-style: disc;
