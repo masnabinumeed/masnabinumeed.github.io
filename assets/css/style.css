@@ -655,7 +655,7 @@ nav {
 
 nav a {color: rgba(255, 255, 255, 0.5);}
 
-.nav-content {border-bottom: 0.1px solid #D2CEC675;padding: 24px 0;}
+.nav-content {border-bottom: 1px solid #D2CEC675;padding: 24px 0;}
 
 a.active {
     color: white;
@@ -696,7 +696,7 @@ img {
     width: 100px;
 }
 
-.bottom-border {padding-bottom: 4px;border-bottom: 1px solid #D2CEC6;}
+.bottom-border {padding-bottom: 4px;border-bottom: 1px solid #D2CEC675;}
 
 .bulLet's {
     list-style: disc;
