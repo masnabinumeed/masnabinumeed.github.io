@@ -1057,3 +1057,8 @@ section {
 }
 
  }
+
+
+@view-transition {
+  navigation: auto;
+}
