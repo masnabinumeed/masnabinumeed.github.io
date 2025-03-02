@@ -1,6 +1,6 @@
 section#logos {
     display: flex;
     justify-content: space-evenly;
-    gap: 16px;
+    gap: 32px;
     flex-wrap: wrap;
 }
