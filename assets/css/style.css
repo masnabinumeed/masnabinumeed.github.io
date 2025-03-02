@@ -489,7 +489,7 @@ h2, .highlight, .figure {
     margin-bottom: 12px;
     font-weight: 100;
     transition: 200ms color;
-    /* font-family: 'Plus Jakarta Bold', 'inter'; */
+    text-wrap: balance;
 }
 
 h3 {
