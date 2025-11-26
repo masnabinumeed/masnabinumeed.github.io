@@ -13,13 +13,9 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/home.css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="assets/js/app.js"></script>
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
@@ -44,96 +40,59 @@
 
 <body>
 
-  <nav>
-    <div class="row container">
+  <nav class="grid">
+    <div class="col-12 nav-content">
+      <a href="/">
+        <img class="logo" alt="logo" src="assets/images/masna_logo_white.png" style="max-height: 32px;">
+      </a>
 
-      <div class="col-lg-12 nav-content">
-        <a href="/">
-          <img class="logo" alt="logo" src="assets/images/masna_logo_white.png" style="max-height: 32px;">
-        </a>
-
-        <div class="float-right">
-          <a href="/" class="hidden-sm active">Home</a>
-          <span class="ml8 mr8 hidden-sm"></span>
-          <a href="/projects" class="">Projects</a>
-          <span class="ml8 mr8"></span>
-          <a href="/about" class="">About</a>
-          <span class="ml8 mr8 hidden-sm"></span>
-          <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank" class="hidden-sm">Linkedin</a>
-        </div>
-
+      <div class="float-right">
+        <a href="/" class="hidden-sm active">Home</a>
+        <span class="ml8 mr8 hidden-sm"></span>
+        <a href="/projects" class="">Projects</a>
+        <span class="ml8 mr8"></span>
+        <a href="/about" class="">About</a>
+        <span class="ml8 mr8 hidden-sm"></span>
+        <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank" class="hidden-sm">Linkedin</a>
       </div>
+
     </div>
   </nav>
 
 
   <header id="home-header">
 
-    <div class="row container onload">
+    <div class="grid onload">
 
-
-
-      <div class="col-lg-8 mb40 ">
-
-        <!-- <div class="bar mb24"></div> -->
+      <div class="col-8 mb40">
         <h1 class="mb24">Looking at the bigger picture, from ideation to execution, and everything in between
-
         </h1>
-
       </div>
 
-      <div class="row mb24">
-
-        <p class="col-lg-8">Hello! I'm Masna Bin Umeed, a UX Designer based in Islamabad, Pakistan, currently working as Lead UX Designer at Ideate Innovation.</p>
-
-        <div class="col-lg-3 offset-lg-1 "><a class="bottom-border h5" href="mailto:hello@masnabinumeed.com">Get in touch at hello@masnabinumeed.com
-            <img src="../assets/images/icon-out.svg" alt="" class="icon-24 icon-out"></a>
-        </div>
-
-
+      <p class="col-8 mb40">Hello! I'm Masna Bin Umeed, a Product Designer based in Islamabad, Pakistan, currently working as Lead UX Designer at Ideate Innovation.</p>
+      <div class="col-4 mb40" style="display: flex; justify-content: flex-end; align-items: flex-start;">
+        <a class="bottom-border h5" href="mailto:hello@masnabinumeed.com">Get in touch at hello@masnabinumeed.com
+          <img src="../assets/images/icon-out.svg" alt="" class="icon-24 icon-out"></a>
       </div>
 
-      <div id="logos" class="">
+      <div id="logos" class="col-12">
         <img src="assets/images/logo/home/logo-ideate.png" class="logo-showcase" alt="logo of Ideate Innovation">
-
         <img src="assets/images/logo/home/method.png" class="logo-showcase" alt="logo of Method">
         <img src="assets/images/logo/home/verizon.png" class="logo-showcase" alt="logo of Verizon">
         <img src="assets/images/logo/home/usbank.png" class="logo-showcase" alt="logo of USBank">
-        <!-- <img src="assets/images/logo/home/catapult.png" class="logo-showcase" alt="logo of Catapult Learning"> -->
         <img src="assets/images/logo/home/syncrhony.png" class="logo-showcase" alt="logo of Synchrony">
         <img src="assets/images/logo/home/polly.png" class="logo-showcase" alt="logo of Polly">
         <img src="assets/images/logo/home/logo-cfp.png" class="logo-showcase" alt="logo of Code for Pakistan">
       </div>
-
-
     </div>
-
-
-    <!-- <img src="assets/images/texture.png" alt="background texture" class="texture"> -->
-
-
-
 
   </header>
 
-  <!-- <div class="blob" style="left: -90px; top: 72px;"></div> -->
-
 
   <main>
-    <div class=" container" id="home">
+    <div id="home">
 
-
-
-
-      
-
-
-
-      
-
-
-
-      <section id="casestudies">
+      <section id="casestudies" class="container">
 
         <div class="align-row mb24">
           <h4 class="mb24">
@@ -144,64 +103,31 @@
 
 
 
-
-
-        <!-- <div class="surface casestudy">
-          <img alt="catapult learning" src="assets/images/catapult.png" class="icon-24">
-
-
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
-
-              <a href="/projects/catapult-learning-scheduler"><h2 class="lazyscroll">
-                Centralizing the class scheduling process to offer more context and visibility
-              </h2></a>
-              <p class="lazyscroll">
-                Incorporating user interviews, user flows, wireframing, and prototyping to designs a scheduler tool, within a timeframe of six weeks.
-              </p>
-            </div>
-            <div class="col-md-5 offset-md-1 casestudy-img">
-              <img src="assets/images/projects/catapult_hero.png" alt="hero" style="max-height:400px" class="float-right">
-            </div>
-
+        <div class="surface casestudy">
+          <div>
+            <img alt="Ideate Innovation" src="assets/images/logo/home/logo-ideate.png" class="icon-24 mr16" style="max-width: 140px;">
           </div>
-          <a href="/projects/catapult-learning-scheduler"><img src="../assets/images/icon-lock.svg" class="icon-24 mr8">Request Viewing</a>
 
-        </div> -->
-
-
-        <!-- <div class="surface casestudy">
-          <div class="align-row">
-              <a href="" target="_blank"><img alt="visor dynamics" src="../assets/images/projects/agriverse/logo-visor.png"
-                class="icon-32 mr16"></a>        
-            <a href="" target="_blank"><img alt="ministry of defence" src="../assets/images/projects/agriverse/logo-mod.png"
-                class="icon-48 mr16"></a>
-            <a href="" target="_blank"><img alt="NASTP" src="../assets/images/projects/agriverse/logo-nastp.png"
-                class="icon-24 mr16"></a>
-          </div>
-  
-  
-  
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
-  
-              <a href="/projects/agriverse-cloudnative-gis-tool">
+          <div class="grid mt40 mb40">
+            <div class="col-6">
+              <a href="/projects/ai-for-risk-assessment">
                 <h2 class="lazyscroll">
-                  Combining Remote Sensing with AI/ML for Precision Agriculture and Interventions
+                  Evaluating Career Disruption and Risk with AI
                 </h2>
               </a>
               <p class="lazyscroll">
-                Agriverse is a cloud-native GIS tool that combines remote sensing data from satellites and UAV drones with analysis from AI/ML frameworks for precision agriculture.               </p>
+                Designed an AI SaaS platform from concept to high-fidelity designs, helping users evaluate AI disruption risks and upskill for the future.
+              </p>
             </div>
-            <div class="col-md-5 offset-md-1 casestudy-img" style="justify-content: flex-start; align-items: flex-start;">
-              <img loading="lazy" src="assets/images/projects/agriverse/hero-2.webp" alt="hero" style="max-height:500px" class="float-right">
+            <div class="col-5 col-start-8 casestudy-img" style="align-items: baseline;">
+              <img loading="lazy" src="assets/images/projects/ai-risk/hero.png" alt="AI Risk Assessment hero" style="max-height:500px"
+                class="float-right">
             </div>
-  
           </div>
-          <a href="/projects/agriverse-cloudnative-gis-tool">View Project &nbsp <span class="arrow">→</span></a>
-  
-        </div> -->
+          <a href="/projects/ai-for-risk-assessment">View Project &nbsp;<span class="arrow">→</span></a>
+        </div>
 
+        
 
         <div class="surface casestudy">
           <div>
@@ -210,8 +136,8 @@
 
           </div>
 
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
+          <div class="grid mt40 mb40">
+            <div class="col-6">
 
               <a href="/projects/verizon-connected-car">
                 <h2 class="lazyscroll">
@@ -223,45 +149,13 @@
                 for BMW customers and their family group.
               </p>
             </div>
-            <div class="col-md-5 offset-md-1 casestudy-img" style="align-items: baseline;">
+            <div class="col-5 col-start-8 casestudy-img" style="align-items: baseline;">
               <img loading="lazy" src="assets/images/projects/verizon_hero.webp" alt="hero" style="max-height:550px"
                 class="float-right">
             </div>
 
           </div>
           <a href="/projects/verizon-connected-car">View Project &nbsp <span class="arrow">→</span></a>
-
-        </div>
-
-        <div class="surface casestudy">
-          <div>
-            <img alt="adamsmith" src="assets/images/adamsmith.png" class="icon-24 mr16 inline">
-            <img alt="fbr" src="assets/images/fbr.png" class="icon-32 mr16 inline">
-          </div>
-
-
-
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
-
-              <a href="/projects/fbr-tax-registration">
-                <h2 class="lazyscroll">
-                  Improving the Tax Registration Experience for better Usability, Simplicity and Legal Compliance
-                </h2>
-              </a>
-              <p class="lazyscroll">
-                Independent consultant for Pakistan's federal tax authority, FBR to redesign the registration process
-                for the Income and Sales tax e-government portal, IRIS.
-              </p>
-            </div>
-            <div class="col-md-5 offset-md-1 casestudy-img">
-              <img loading="lazy" src="assets/images/projects/fbr_hero.webp" alt="hero" style="max-height:450px"
-                class="float-right">
-            </div>
-
-          </div>
-          <a href="/projects/fbr-tax-registration"><img src="../assets/images/icon-lock.svg" alt=""
-              class="icon-24 mr8">Request Viewing</a>
 
         </div>
 
@@ -272,8 +166,8 @@
 
           </div>
 
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
+          <div class="grid mt40 mb40">
+            <div class="col-6">
 
               <a href="/projects/synchrony-bank-website">
                 <h2 class="lazyscroll">
@@ -285,7 +179,7 @@
                 inconsistencies and accessibility issues.
               </p>
             </div>
-            <div class="col-md-5 offset-md-1 casestudy-img" style="align-items: baseline;">
+            <div class="col-5 col-start-8 casestudy-img" style="align-items: baseline;">
               <img loading="lazy" src="assets/images/projects/synchrony-hero.webp" alt="hero" style="max-height:600px"
                 class="float-right">
             </div>
@@ -301,8 +195,8 @@
           <img alt="Polly" src="assets/images/polly.png" class="icon-24">
 
 
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
+          <div class="grid mt40 mb40">
+            <div class="col-6">
 
               <a href="/projects/polly-teams-authoring">
                 <h2 class="lazyscroll">
@@ -314,7 +208,7 @@
                 35% improvement in completion rate.
               </p>
             </div>
-            <div class="col-md-5 offset-md-1 casestudy-img" style="align-items: baseline;">
+            <div class="col-5 col-start-8 casestudy-img" style="align-items: baseline;">
               <img loading="lazy" src="assets/images/projects/teams_schedule.webp" alt="hero" style="max-height:600px"
                 class="float-right">
             </div>
@@ -325,38 +219,14 @@
         </div>
 
 
-        <!-- <div class="surface casestudy">
-          <img alt="Mauqa Online" src="assets/images/mauqa-white.png" class="icon-24">
-
-
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
-
-              <a href="/projects/mauqaonline-booking-experience"><h2 class="lazyscroll">
-                Redesigning a booking experience to improve feedback and choice
-              </h2></a>
-              <p class="lazyscroll">
-                Making a booking form dynamic with instant feedback to the user at each step of the journey, resulting in a 6x increase in bookings.
-              </p>
-            </div>
-            <div class="col-md-5 offset-md-1 casestudy-img" style="align-items: baseline;">
-              <img src="assets/images/projects/OF_hero.png" alt="hero" style="max-height:600px" class="float-right">
-            </div>
-
-          </div>
-          <a href="/projects/mauqaonline-booking-experience">Explore case study  &nbsp <span class="arrow">→</span></a>
-
-        </div> -->
-
-
 
 
         <div class="surface casestudy">
 
           <img alt="Mauqa Online" src="assets/images/mauqa-white.png" class="icon-24">
 
-          <div class="row align-row mt40 mb40">
-            <div class="col-md-6">
+          <div class="grid mt40 mb40">
+            <div class="col-6">
 
               <a href="/projects/mauqaonline-automating-communication">
                 <h2 class="lazyscroll">
@@ -367,7 +237,7 @@
                 Translating native mobile app functionalities onto feature phone's capabilities using automated voice
                 calling.
             </div>
-            <div class="col-md-5 offset-md-1  casestudy-img">
+            <div class="col-5 col-start-8 casestudy-img">
               <img loading="lazy" src="assets/images/projects/helpers.webp" alt="hero" width="100%" class="float-right">
             </div>
 
@@ -376,90 +246,6 @@
 
         </div>
 
-
-
-        <!-- <div class="surface casestudy">
-            <img alt="V2X Network" src="assets/images/V2X_logo.png" class="icon-48">
-  
-  
-            <div class="row align-row mt40 mb40">
-              <div class="col-md-6">
-  
-                <a href="/projects/V2X-fleet-management"><h2 class="lazyscroll">
-                  Unified Fleet and Job Management Portal
-                </h2></a>
-                <p class="lazyscroll">
-                  Utilizing Jobs-To-Be-Done framework to unify Fleet and Job management under one consolidated portal.
-                </p>
-              </div>
-              <div class="col-md-5 offset-md-1 casestudy-img" style="align-items: end;">
-                <img src="assets/images/projects/V2X-hero.webp" alt="hero" style="max-height:600px" class="float-right">
-              </div>
-  
-            </div>
-            <a href="/projects/V2X-fleet-management">View Project  &nbsp <span class="arrow">→</span></a>
-  
-          </div> -->
-
-
-
-        <!-- <div class="surface casestudy">
-            <img alt="easy insurance" src="assets/images/easyinsurance.png" class="icon-24">
-
-
-            <div class="row align-row mt40 mb40">
-              <div class="col-md-6">
-
-                <a href="/projects/easyinsurance-improving-conversion-rate"><h2 class="lazyscroll">
-                  Improving the conversion rate for online insurance purchase
-                </h2></a>
-                <p class="lazyscroll">
-                  Using qualitative and quantitative analysis, I identified and fixed drop-offs in the conversion funnel for travel insurance purchase.
-                </p>
-              </div>
-              <div class="col-md-5 offset-md-1 casestudy-img">
-                <img src="assets/images/projects/ei_funnel_4.png" alt="hero" style="width:100%;">
-              </div>
-
-            </div>
-            <a href="/projects/easyinsurance-improving-conversion-rate">Explore case study  &nbsp <span class="arrow">→</span></a>
-
-          </div> -->
-
-
-
-        <!-- <div class="surface casestudy" style="min-height: auto">
-
-            <img alt="logofolio" src="assets/images/masna_logo_white.png" class="icon-24">
-
-
-            <div class="row align-row mt40 mb40">
-              <div class="col-md-3">
-                <h4 class="lazyscroll">Logo design </h4>
-
-                <a href="/projects/logofolio"><h2 class="lazyscroll">
-                  Logofolio
-                </h2></a>
-               
-              </div>
-              <div class="col-md-9 casestudy-img">
-                <figure class=" col-md-4 p12">
-                  <img style="max-width:100%;" alt="wow mangoes" src="assets/images/projects/logofolio_1.png">
-                </figure>
-
-                <figure class=" col-md-4 p12">
-                  <img style="max-width:100%;" alt="easyinsurance" src="assets/images/projects/logofolio_2.png">
-                </figure>
-
-                <figure class=" col-md-4 p12">
-                    <img style="max-width:100%;" alt="NLS" src="assets/images/projects/logofolio_3.png">
-                </figure>
-              </div>
-
-            </div>
-            <a href="/projects/logofolio">Explore more  &nbsp <span class="arrow">→</span></a>
-
-          </div> -->
 
           <div class="align-row align-center mt24 pt24">
             <a href="/projects" class=" bottom-border align-row gap-16" >
@@ -474,18 +260,18 @@
 
       <section class="" id="services">
 
-        <div class="row pt24">
+        <div class="grid pt24">
 
-          <h4 class="col-sm-12">Services</h4>
+          <h4 class="col-12">Services</h4>
 
 
-          <div class="mt16 mb16 lazyscroll col-md-8">
+          <div class="mt16 mb16 lazyscroll col-8">
             <p>I provide the following services as an independent consultant</p>
           </div>
 
 
 
-          <div class="col-md-6 p24 lazyscroll align-row surface">
+          <div class="col-6 p24 lazyscroll align-row surface">
 
             <img src="assets/images/icon-layout-1.svg" class="icon-48 mr24" alt="" loading="lazy">
 
@@ -500,7 +286,7 @@
 
           </div>
 
-          <div class="col-md-6 p24 lazyscroll align-row surface">
+          <div class="col-6 p24 lazyscroll align-row surface">
 
             <img src="assets/images/icon-discovery-1.svg" class="icon-48 mr24" alt="" loading="lazy">
 
@@ -515,7 +301,7 @@
 
           </div>
 
-          <div class="col-md-6 p24 lazyscroll align-row surface">
+          <div class="col-6 p24 lazyscroll align-row surface">
 
             <img src="assets/images/icon-process-1.svg" class="icon-48 mr24" alt="" loading="lazy">
 
@@ -532,7 +318,7 @@
 
 
 
-          <div class="col-md-6 p24 lazyscroll align-row surface">
+          <div class="col-6 p24 lazyscroll align-row surface">
 
             <img src="assets/images/icon-tetris-1.svg" class="icon-48 mr24" alt="" loading="lazy">
 
@@ -548,7 +334,7 @@
           </div>
 
 
-          <div class="col-md-6 p24 lazyscroll align-row surface">
+          <div class="col-6 p24 lazyscroll align-row surface">
 
             <img src="assets/images/icon-funnel-1.svg" class="icon-48 mr24" alt="" loading="lazy">
 
@@ -564,10 +350,10 @@
           </div>
 
 
-          <div class="p24 col-sm-12"></div>
+          <div class="p24 col-12"></div>
 
 
-          <div class="col-sm-12 mt40 pb16 mb40 center lazyscroll">
+          <div class="col-12 mt40 pb16 mb40 center lazyscroll">
             <a class="bottom-border" href="mailto:hello@masnabinumeed.com" target="_blank">
               <h5>Let's discuss your product challenges<img src="../assets/images/icon-out.svg" alt=""
                   class="icon-24 ml8 icon-out"></h5>
@@ -585,71 +371,99 @@
 
 
 
-    <section>
-      <div class="row">
-        <div class="col-md-6 mb40">
-          <h4 class="mb40">Skills</h4>
-          <div class="row">
-            <div class="col-md-6">
-              <ul>
-                <li class="lazyscroll">User Experience (UX) design</li>
-                <li class="lazyscroll">User Interface (UI) design</li>
-                <li class="lazyscroll">Prototyping</li>
-                <li class="lazyscroll">Wireframing</li>
-                <li class="lazyscroll">Design Systems</li>
-                <li class="lazyscroll">Web Accessibility</li>
-                <li class="lazyscroll">HTML & CSS</li>
-                <li class="lazyscroll">Conversion Rate Optimization</li>
-
-
-              </ul>
-            </div>
-
-
-            <div class="col-md-6 mb40 ">
-              <ul>
-                <li class="lazyscroll">Service Design</li>
-                <li class="lazyscroll">Conceptual Modelling</li>
-                <li class="lazyscroll">Discovery Research</li>
-                <li class="lazyscroll">Service Blueprinting</li>
-                <li class="lazyscroll">User Flows</li>
-                <li class="lazyscroll">Information Architecture</li>
-                <li class="lazyscroll">User Testing</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 offset-md-2 mb40 ">
-          <h4 class="mb40">Tools</h4>
-
-          <ul>
-            <li class="lazyscroll">Figma, Sketch & Framer</li>
-            <li class="lazyscroll">Adobe Creative Cloud</li>
-            <li class="lazyscroll">Miro, FigJam & Mural</li>
-            <li class="lazyscroll">Webflow</li>
-            <li class="lazyscroll">Google Analytics & Amplitude</li>
-            <li class="lazyscroll">Maze (User testing)</li>
-            <li class="lazyscroll">Visual Studio & Github</li>
-            <li class="lazyscroll">MySQL Workbench</li>
-
-
-          </ul>
-
-        </div>
-
-        <div class="align-row align-center mt24 pt24 col-sm-12">
-        <a href="/about" class="bottom-border p24 align-row mb40 gap-16"
+    <section class="grid container about-section">
+      <div class="col-3">
+        <h4 class="mb24">About Me</h4>
+        <p class="lazyscroll">I got into design as a run-away engineer, landing there by chance and discovering the perfect balance for logical reasoning and creative expression.</p>
+        <p class="lazyscroll">My approach is community-focused, centered on solving real human problems and shaping our role in society.</p>
+     
+        
+        <a href="/about" class="bottom-border pb24 pt24 align-row mb40 gap-16"
           style="justify-content: space-between;">
-          <h5 class="m0">About me &nbsp </h5>
+          <h5 class="m0">Learn more about me &nbsp </h5>
           <img class="arrow" alt="" src="/assets/images/icon-right.svg">
         </a>
-        </div>
+        
+
+      </div>
+      <div class="col-8 col-start-5 grid about-images">
+        <figure class="col-8 row-1 lazyscroll" style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="img-wrapper">
+            <img src="assets/images/home/UX Pakistan Talk.jpeg" alt="Speaking at UX Pakistan 2025">
+          </div>
+          <p class="text">Speaking at UX Pakistan 2025 conference in LUMS, Lahore</p>
+        </figure>
+        <figure class="col-4 row-2 lazyscroll" style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="img-wrapper">
+            <img src="assets/images/home/Method Design Team.jpg" alt="Method team">
+          </div>
+          <p class="text">Method's New York design team</p>
+        </figure>
+        <figure class="col-8 row-1 lazyscroll" style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="img-wrapper">
+            <img src="assets/images/home/Peshawar Workshop.jpeg" alt="Design workshop">
+          </div>
+          <p class="text">Giving an intro to design workshop to fellows in Peshawar</p>
+        </figure>
       </div>
     </section>
 
+    <section class="grid container">
+      <div class="col-6 mb40">
+        <h4 class="mb40">Skills</h4>
+        <div class="grid">
+          <div class="col-6">
+            <ul>
+              <li class="lazyscroll">User Experience (UX) design</li>
+              <li class="lazyscroll">User Interface (UI) design</li>
+              <li class="lazyscroll">Prototyping</li>
+              <li class="lazyscroll">Wireframing</li>
+              <li class="lazyscroll">Design Systems</li>
+              <li class="lazyscroll">Web Accessibility</li>
+              <li class="lazyscroll">HTML & CSS</li>
+              <li class="lazyscroll">Conversion Rate Optimization</li>
 
-    <section>
+
+            </ul>
+          </div>
+
+
+          <div class="col-6 mb40 ">
+            <ul>
+              <li class="lazyscroll">Service Design</li>
+              <li class="lazyscroll">Conceptual Modelling</li>
+              <li class="lazyscroll">Discovery Research</li>
+              <li class="lazyscroll">Service Blueprinting</li>
+              <li class="lazyscroll">User Flows</li>
+              <li class="lazyscroll">Information Architecture</li>
+              <li class="lazyscroll">User Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 col-start-9 mb40 ">
+        <h4 class="mb40">Tools</h4>
+
+        <ul>
+          <li class="lazyscroll">Figma, Sketch & Framer</li>
+          <li class="lazyscroll">Adobe Creative Cloud</li>
+          <li class="lazyscroll">Miro, FigJam & Mural</li>
+          <li class="lazyscroll">Webflow</li>
+          <li class="lazyscroll">Google Analytics & Amplitude</li>
+          <li class="lazyscroll">Maze (User testing)</li>
+          <li class="lazyscroll">Visual Studio & Github</li>
+          <li class="lazyscroll">MySQL Workbench</li>
+
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+    <section class="container mb40">
 
 
       <h4 class="mb40">Testimonials</h4>
@@ -737,42 +551,35 @@
   </main>
 
 
-  <footer class="container">
+  <footer class="grid">
 
-    <div class="row align-row bottom-border pb16 pt24">
+    <div class="col-8 align-row bottom-border pb16 pt24">
 
-      <div class="col-sm-8 align-row">
+      <img alt="masna picture" src="../assets/images/masna.webp" class="inline" width="48px" height="48px"
+        style="border-radius:48px;">
 
-        <img alt="masna picture" src="../assets/images/masna.webp" class="inline" width="48px" height="48px"
-          style="border-radius:48px;">
+      <h2 class="pl16 m0 inline">Let's discuss your product challenges</h2>
 
-        <h2 class="pl16 m0 inline">Let's discuss your product challenges</h2>
-
-      </div>
-
-      <div class="col-sm-4 mt16">
-        <a class="float-right" href="mailto:hello@masnabinumeed.com" target="_blank">
-          <h5>Get in touch<img src="../assets/images/icon-out.svg" alt="" class="icon-24 ml8 icon-out"></h5>
-        </a>
-      </div>
     </div>
 
-    <div class="row mt16 pb24 pt24">
+    <div class="col-4 mt16 bottom-border pb16 pt24">
+      <a class="float-right" href="mailto:hello@masnabinumeed.com" target="_blank">
+        <h5>Get in touch<img src="../assets/images/icon-out.svg" alt="" class="icon-24 ml8 icon-out"></h5>
+      </a>
+    </div>
 
-      <nav class="col-sm-4">
-        <a href="/" class="active">Home</a>
-        <span class="ml8 mr8"></span>
-        <a href="/projects" class="">Projects</a>
-        <span class="ml8 mr8"></span>
-        <a href="/about" class="">About</a>
-        <span class="ml8 mr8"></span>
-        <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank">Linkedin</a>
-      </nav>
+    <nav class="col-4 mt16 pb24">
+      <a href="/" class="active">Home</a>
+      <span class="ml8 mr8"></span>
+      <a href="/projects" class="">Projects</a>
+      <span class="ml8 mr8"></span>
+      <a href="/about" class="">About</a>
+      <span class="ml8 mr8"></span>
+      <a href="https://www.linkedin.com/in/masnabinumeed/" target="_blank">Linkedin</a>
+    </nav>
 
-      <div class="col-sm-8" style="opacity: .25;">
-        <div class="text text-right">This website is self designed and hand coded</div>
-      </div>
-
+    <div class="col-8 mt16 pb24" style="opacity: .25;">
+      <div class="text text-right">This website is self designed and hand coded</div>
     </div>
 
 
