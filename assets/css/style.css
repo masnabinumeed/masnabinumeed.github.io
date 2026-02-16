@@ -345,6 +345,7 @@ html, body, :root {
   padding-bottom: 40px !important;
 }
 
+
 .red {
     color: #FF4637;
 }
@@ -1172,6 +1173,24 @@ a i {
   }
 }
 
+
+
+.delay-200 {
+  transition-delay: 200ms !important;
+}
+
+
+.delay-400 {
+  transition-delay: 400ms !important;
+}
+
+.delay-600 {
+  transition-delay: 600ms !important;
+}
+
+.delay-800 {
+  transition-delay: 800ms !important;
+}
 
 /* for tablet and smaller */
 
