@@ -35,11 +35,31 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Lazyscroll - fade in elements on scroll
+  function revealLazyElement(elem) {
+    if (elem.tagName === 'IMG' && elem.dataset.src && !elem.dataset.lazyLoaded) {
+      elem.dataset.lazyLoaded = 'true';
+      elem.src = elem.dataset.src;
+
+      if (elem.complete) {
+        elem.classList.add('fadein');
+      } else {
+        elem.addEventListener('load', function handleLoad() {
+          elem.classList.add('fadein');
+          elem.removeEventListener('load', handleLoad);
+        });
+      }
+
+      return;
+    }
+
+    elem.classList.add('fadein');
+  }
+
   function checkLazyScroll() {
     var elements = document.querySelectorAll('.lazyscroll');
     elements.forEach(function(elem) {
       if (isScrolledIntoView(elem)) {
-        elem.classList.add('fadein');
+        revealLazyElement(elem);
       }
     });
   }
